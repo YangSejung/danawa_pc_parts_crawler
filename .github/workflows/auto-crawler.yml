@@ -1,10 +1,10 @@
 name: Daily Crawler Update
 
 on:
+  workflow_dispatch:
   #schedule:
     #- cron: '0 0 * * *'  # 매일 자정 UTC (= 한국 9AM)
     #- cron: '/10 * * * *'  # 매일 자정 UTC (= 한국 9AM)
-  workflow_dispatch:      # 수동 실행도 가능
 
 jobs:
   update-data:
