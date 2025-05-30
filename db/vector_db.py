@@ -11,8 +11,6 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 INDEX_NAME = "pc-components"
 DIMENSION  = 1536
 
-cpu_compalibility = []
-
 # ---------- 1) 클라이언트 초기화 ------------
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
 pc = Pinecone(api_key = PINECONE_API_KEY)
