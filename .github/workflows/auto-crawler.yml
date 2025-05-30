@@ -1,3 +1,6 @@
+permissions:
+  contents: write
+
 name: Daily Crawler Update
 
 on:
@@ -37,10 +40,8 @@ jobs:
       run: |
         python crawlers/parts_info_crawler.py
 
-    - name: Push
+    - name: Add Commit Push
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: "Bot - Auto Crawl | $(date -d '+9 hour' +'%Y-%m-%d %H:%M:%S')"
         file_pattern: "data/raw/**"
-      env:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
