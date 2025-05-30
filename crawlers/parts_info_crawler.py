@@ -378,7 +378,4 @@ def main(processes: int = max(cpu_count() // 2, 1)) -> None:
     print("모든 카테고리 크롤링이 완료되었습니다.")
 
 if __name__ == "__main__":
-    print(BASE_DIR)
-    BASE_DIR = Path(__file__).resolve().parent
-    print(BASE_DIR)
-    # main()
+    main()

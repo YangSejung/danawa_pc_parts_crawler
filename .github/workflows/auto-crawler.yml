@@ -28,9 +28,17 @@ jobs:
       
         # Download and unzip
         wget https://storage.googleapis.com/chrome-for-testing-public/${FULL_VER}/linux64/chromedriver-linux64.zip
-        # unzip -q chromedriver-linux64.zip -d driver/ 
-        unzip -j -o driver/chromedriver-linux64.zip -d driver/
+
+    - name: List all files for debugging1
+      run: ls -R ${{ github.workspace }}
+
+    - name: Unzip
+      run: |
+        unzip -q chromedriver-linux64.zip -d driver/ 
         rm driver/chromedriver-linux64.zip
+
+    - name: List all files for debugging2
+      run: ls -R ${{ github.workspace }}
 
     - name: List workspace files
       run: |
