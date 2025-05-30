@@ -23,8 +23,8 @@ jobs:
     - name: Install ChromeDriver matching system Chrome
       run: |
         # Download and unzip
-        wget -N "https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/linux64/chromedriver-linux64.zip"
-        unzip -q chromedriver_linux64.zip -d driver/
+        wget https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/linux64/chromedriver-linux64.zip
+        unzip -q chromedriver-linux64.zip -d driver/
         chmod +x chromedriver
 
     - name: Run Crawler
