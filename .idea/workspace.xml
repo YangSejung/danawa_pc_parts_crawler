@@ -6,24 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8711fcda-aa34-4575-866d-0cd8dfbc90bc" name="변경" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/CPU_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/CPU_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Case_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Case_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Cooler_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Cooler_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Memory_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Memory_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Motherboard_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Motherboard_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/PSU_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/PSU_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Storage_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Storage_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/VGA_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/VGA_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/CPU_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/CPU_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/Case_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/Case_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/Cooler_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/Cooler_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/HDD_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/HDD_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/Memory_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/Memory_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/Motherboard_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/Motherboard_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/PSU_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/PSU_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/SSD_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/SSD_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/VGA_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/VGA_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/HDD/HDD_info_clean.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/raw/HDD/HDD_info_clean.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -417,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748604702321</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="init">
+      <option name="closed" value="true" />
+      <created>1748614724883</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1748614724883</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
