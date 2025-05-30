@@ -45,8 +45,8 @@ jobs:
       run: |
         echo "timestamp=$(date -d '+9 hour' +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_OUTPUT
 
-    - name: Add Commit Push
+    - name: Auto-commit & Push raw data
       uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: Bot - Auto Crawl | $(date -d '+9 hour' +'%Y-%m-%d %H:%M:%S')
+        commit_message: Bot - Auto Crawl | ${{ steps.ts.outputs.timestamp }}
         file_pattern: "data/raw/**"
