@@ -9,7 +9,6 @@ on:
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    workflow_dispatch:
 
     steps:
     - name: Checkout repository
