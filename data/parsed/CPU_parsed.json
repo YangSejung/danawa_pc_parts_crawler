@@ -1,0 +1,5727 @@
+[
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=19627934",
+    "image_url": "https://img.danawa.com/prod_img/500000/934/627/img/19627934_1.jpg",
+    "name": "AMD 라이젠7 7800X3D",
+    "id": 19627934,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.2GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "96MB",
+      "tdp": "120W",
+      "ppt": "162W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1788",
+      "cinebench_r23_multi": "18208",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=69059687",
+    "image_url": "https://img.danawa.com/prod_img/500000/687/059/img/69059687_1.jpg",
+    "name": "인텔 코어 울트라7 시리즈2 265K",
+    "id": 69059687,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "인텔 그래픽스(Xe LPG)",
+      "base_clock": "3.9GHz",
+      "boost_clock": "5.5GHz",
+      "l2_cache": "36MB",
+      "l3_cache": "30MB",
+      "pbp-mtp": "125-250W",
+      "supported_features": [
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2304",
+      "cinebench_r23_multi": "36309",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "8",
+      "threads": "20",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=76555634",
+    "image_url": "https://img.danawa.com/prod_img/500000/634/555/img/76555634_1.jpg",
+    "name": "인텔 코어i5 14400F",
+    "id": 76555634,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.5GHz",
+      "boost_clock": "4.7GHz",
+      "l2_cache": "9.5MB",
+      "l3_cache": "20MB",
+      "pbp-mtp": "65-148W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1790",
+      "cinebench_r23_multi": "17804",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=21694499",
+    "image_url": "https://img.danawa.com/prod_img/500000/499/694/img/21694499_1.jpg",
+    "name": "AMD 라이젠5 7500F",
+    "id": 21694499,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1824",
+      "cinebench_r23_multi": "13824",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=70531547",
+    "image_url": "https://img.danawa.com/prod_img/500000/547/531/img/70531547_1.jpg",
+    "name": "AMD 라이젠7 9800X3D",
+    "id": 70531547,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.7GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "96MB",
+      "tdp": "120W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2073",
+      "cinebench_r23_multi": "23334",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16741211",
+    "image_url": "https://img.danawa.com/prod_img/500000/211/741/img/16741211_1.jpg",
+    "name": "AMD 라이젠5 5600",
+    "id": 16741211,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.5GHz",
+      "boost_clock": "4.4GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1460",
+      "cinebench_r23_multi": "10906",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=14927675",
+    "image_url": "https://img.danawa.com/prod_img/500000/675/927/img/14927675_1.jpg",
+    "name": "AMD 라이젠5 5600G",
+    "id": 14927675,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽 7",
+      "base_clock": "3.9GHz",
+      "boost_clock": "4.4GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1446",
+      "cinebench_r23_multi": "10489",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=76555685",
+    "image_url": "https://img.danawa.com/prod_img/500000/685/555/img/76555685_1.jpg",
+    "name": "인텔 코어i5 14600KF",
+    "id": 76555685,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.5GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "20MB",
+      "l3_cache": "24MB",
+      "pbp-mtp": "125-181W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2054",
+      "cinebench_r23_multi": "24086",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=77790914",
+    "image_url": "https://img.danawa.com/prod_img/500000/914/790/img/77790914_1.jpg",
+    "name": "AMD 라이젠9 9950X3D",
+    "id": 77790914,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.3GHz",
+      "boost_clock": "5.7GHz",
+      "l2_cache": "16MB",
+      "l3_cache": "128MB",
+      "tdp": "170W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=28799654",
+    "image_url": "https://img.danawa.com/prod_img/500000/654/799/img/28799654_1.jpg",
+    "name": "인텔 코어i5 14600K",
+    "id": 28799654,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.5GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "20MB",
+      "l3_cache": "24MB",
+      "pbp-mtp": "125-181W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2069",
+      "cinebench_r23_multi": "25159",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=62794079",
+    "image_url": "https://img.danawa.com/prod_img/500000/079/794/img/62794079_1.jpg",
+    "name": "AMD 라이젠5 9600X",
+    "id": 62794079,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.9GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "2223",
+      "cinebench_r23_multi": "16998",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=62653718",
+    "image_url": "https://img.danawa.com/prod_img/500000/718/653/img/62653718_1.jpg",
+    "name": "AMD 라이젠5 9600X",
+    "id": 62653718,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.9GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "2223",
+      "cinebench_r23_multi": "16998",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=62653715",
+    "image_url": "https://img.danawa.com/prod_img/500000/715/653/img/62653715_1.jpg",
+    "name": "AMD 라이젠7 9700X",
+    "id": 62653715,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.5GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2260",
+      "cinebench_r23_multi": "21436",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=69059459",
+    "image_url": "https://img.danawa.com/prod_img/500000/459/059/img/69059459_1.jpg",
+    "name": "인텔 코어 울트라9 시리즈2 285K",
+    "id": 69059459,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "인텔 그래픽스(Xe LPG)",
+      "base_clock": "3.7GHz",
+      "boost_clock": "5.7GHz",
+      "l2_cache": "40MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "125-250W",
+      "supported_features": [
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2320",
+      "cinebench_r23_multi": "41558",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "8",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=28799435",
+    "image_url": "https://img.danawa.com/prod_img/500000/435/799/img/28799435_1.jpg",
+    "name": "인텔 코어i7 14700K",
+    "id": 28799435,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.4GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "28MB",
+      "l3_cache": "33MB",
+      "pbp-mtp": "125-253W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2069",
+      "cinebench_r23_multi": "34818",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=69059723",
+    "image_url": "https://img.danawa.com/prod_img/500000/723/059/img/69059723_1.jpg",
+    "name": "인텔 코어 울트라7 시리즈2 265KF",
+    "id": 69059723,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.9GHz",
+      "boost_clock": "5.5GHz",
+      "l2_cache": "36MB",
+      "l3_cache": "30MB",
+      "pbp-mtp": "125-250W",
+      "supported_features": [
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2309",
+      "cinebench_r23_multi": "37278",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "8",
+      "threads": "20",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16741349",
+    "image_url": "https://img.danawa.com/prod_img/500000/349/741/img/16741349_1.jpg",
+    "name": "AMD 라이젠7 5700X",
+    "id": 16741349,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.4GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1527",
+      "cinebench_r23_multi": "13293",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=60170204",
+    "image_url": "https://img.danawa.com/prod_img/500000/204/170/img/60170204_1.jpg",
+    "name": "AMD 라이젠5 8600G",
+    "id": 60170204,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 760M",
+      "base_clock": "4.3GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen AI"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1662",
+      "cinebench_r23_multi": "13513",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=70679912",
+    "image_url": "https://img.danawa.com/prod_img/500000/912/679/img/70679912_1.jpg",
+    "name": "AMD 라이젠7 9800X3D",
+    "id": 70679912,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.7GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "96MB",
+      "tdp": "120W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2073",
+      "cinebench_r23_multi": "23334",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16101353",
+    "image_url": "https://img.danawa.com/prod_img/500000/353/101/img/16101353_1.jpg",
+    "name": "인텔 코어i5 12400F",
+    "id": 16101353,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.5GHz",
+      "boost_clock": "4.4GHz",
+      "l2_cache": "7.5MB",
+      "l3_cache": "18MB",
+      "tdp": "65~117W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1605",
+      "cinebench_r23_multi": "12201",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=77790917",
+    "image_url": "https://img.danawa.com/prod_img/500000/917/790/img/77790917_1.jpg",
+    "name": "AMD 라이젠9 9950X3D",
+    "id": 77790917,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.3GHz",
+      "boost_clock": "5.7GHz",
+      "l2_cache": "16MB",
+      "l3_cache": "128MB",
+      "tdp": "170W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=58933169",
+    "image_url": "https://img.danawa.com/prod_img/500000/169/933/img/58933169_1.jpg",
+    "name": "AMD 라이젠7 8700G",
+    "id": 58933169,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 780M",
+      "base_clock": "4.2GHz",
+      "boost_clock": "5.1GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen AI"
+      ],
+      "cooler": "Wraith Spire 포함",
+      "cinebench_r23_single": "1705",
+      "cinebench_r23_multi": "17654",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=63140417",
+    "image_url": "https://img.danawa.com/prod_img/500000/417/140/img/63140417_1.jpg",
+    "name": "AMD 라이젠9 9950X",
+    "id": 63140417,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.3GHz",
+      "boost_clock": "5.7GHz",
+      "l2_cache": "16MB",
+      "l3_cache": "64MB",
+      "tdp": "170W",
+      "ppt": "230W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2309",
+      "cinebench_r23_multi": "42045",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=62794082",
+    "image_url": "https://img.danawa.com/prod_img/500000/082/794/img/62794082_1.jpg",
+    "name": "AMD 라이젠7 9700X",
+    "id": 62794082,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.5GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "2260",
+      "cinebench_r23_multi": "21436",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18718538",
+    "image_url": "https://img.danawa.com/prod_img/500000/538/718/img/18718538_1.jpg",
+    "name": "AMD 라이젠7 7700",
+    "id": 18718538,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith PRISM 포함",
+      "cinebench_r23_single": "1933",
+      "cinebench_r23_multi": "18854",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=28799498",
+    "image_url": "https://img.danawa.com/prod_img/500000/498/799/img/28799498_1.jpg",
+    "name": "인텔 코어i7 14700KF",
+    "id": 28799498,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.4GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "28MB",
+      "l3_cache": "33MB",
+      "pbp-mtp": "125-253W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2145",
+      "cinebench_r23_multi": "35218",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=32038580",
+    "image_url": "https://img.danawa.com/prod_img/500000/580/038/img/32038580_1.jpg",
+    "name": "인텔 코어i5 14400",
+    "id": 32038580,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 730",
+      "base_clock": "2.5GHz",
+      "boost_clock": "4.7GHz",
+      "l2_cache": "9.5MB",
+      "l3_cache": "20MB",
+      "pbp-mtp": "65-148W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1796",
+      "cinebench_r23_multi": "17802",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=28798964",
+    "image_url": "https://img.danawa.com/prod_img/500000/964/798/img/28798964_1.jpg",
+    "name": "인텔 코어i9 14900K",
+    "id": 28798964,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.2GHz",
+      "boost_clock": "6.0GHz",
+      "l2_cache": "32MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "125-253W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2277",
+      "cinebench_r23_multi": "40146",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=74123111",
+    "image_url": "https://img.danawa.com/prod_img/500000/111/123/img/74123111_1.jpg",
+    "name": "인텔 코어 울트라5 시리즈2 225F",
+    "id": 74123111,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.3GHz",
+      "boost_clock": "4.9GHz",
+      "l2_cache": "22MB",
+      "l3_cache": "20MB",
+      "pbp-mtp": "65-121W",
+      "supported_features": "인텔 딥러닝부스트",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "6",
+      "threads": "10",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18718631",
+    "image_url": "https://img.danawa.com/prod_img/500000/631/718/img/18718631_1.jpg",
+    "name": "AMD 라이젠9 7900",
+    "id": 18718631,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.7GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "64MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith PRISM 포함",
+      "cinebench_r23_single": "1969",
+      "cinebench_r23_multi": "24527",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=77790890",
+    "image_url": "https://img.danawa.com/prod_img/500000/890/790/img/77790890_1.jpg",
+    "name": "AMD 라이젠9 9900X3D",
+    "id": 77790890,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.4GHz",
+      "boost_clock": "5.5GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "128MB",
+      "tdp": "120W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12401438",
+    "image_url": "https://img.danawa.com/prod_img/500000/438/401/img/12401438_1.jpg",
+    "name": "AMD 라이젠3 3200G",
+    "id": 12401438,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 Vega 8",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4GHz",
+      "l2_cache": "2MB",
+      "l3_cache": "4MB",
+      "tdp": "65W",
+      "supported_features": "SenseMI",
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "4",
+      "threads": "4",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2933MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=11876443",
+    "image_url": "https://img.danawa.com/prod_img/500000/443/876/img/11876443_1.jpg",
+    "name": "AMD 라이젠5 PRO 4650G",
+    "id": 11876443,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽 7",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.2GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "8MB",
+      "tdp": "65W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1256",
+      "cinebench_r23_multi": "9173",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=19627808",
+    "image_url": "https://img.danawa.com/prod_img/500000/808/627/img/19627808_1.jpg",
+    "name": "AMD 라이젠7 7800X3D",
+    "id": 19627808,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.2GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "96MB",
+      "tdp": "120W",
+      "ppt": "162W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1788",
+      "cinebench_r23_multi": "18208",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=28799180",
+    "image_url": "https://img.danawa.com/prod_img/500000/180/799/img/28799180_1.jpg",
+    "name": "인텔 코어i9 14900KF",
+    "id": 28799180,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.2GHz",
+      "boost_clock": "6.0GHz",
+      "l2_cache": "32MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "125-253W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2268",
+      "cinebench_r23_multi": "40408",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=32156936",
+    "image_url": "https://img.danawa.com/prod_img/500000/936/156/img/32156936_1.jpg",
+    "name": "인텔 코어i7 14700F",
+    "id": 32156936,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.1GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "28MB",
+      "l3_cache": "33MB",
+      "pbp-mtp": "65-219W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "2091",
+      "cinebench_r23_multi": "32090",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=69059753",
+    "image_url": "https://img.danawa.com/prod_img/500000/753/059/img/69059753_1.jpg",
+    "name": "인텔 코어 울트라5 시리즈2 245K",
+    "id": 69059753,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "인텔 그래픽스(Xe LPG)",
+      "base_clock": "4.2GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "26MB",
+      "l3_cache": "24MB",
+      "pbp-mtp": "125-159W",
+      "supported_features": [
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2114",
+      "cinebench_r23_multi": "24935",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "6",
+      "threads": "14",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=40895423",
+    "image_url": "https://img.danawa.com/prod_img/500000/423/895/img/40895423_1.jpg",
+    "name": "인텔 코어i9 14900KS",
+    "id": 40895423,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.2GHz",
+      "boost_clock": "6.2GHz",
+      "l2_cache": "32MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "150-410W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2305",
+      "cinebench_r23_multi": "40392",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=32038895",
+    "image_url": "https://img.danawa.com/prod_img/500000/895/038/img/32038895_1.jpg",
+    "name": "인텔 코어i3 14100F",
+    "id": 32038895,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.5GHz",
+      "boost_clock": "4.7GHz",
+      "l2_cache": "5MB",
+      "l3_cache": "12MB",
+      "pbp-mtp": "58-110W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1724",
+      "cinebench_r23_multi": "9348",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=32038820",
+    "image_url": "https://img.danawa.com/prod_img/500000/820/038/img/32038820_1.jpg",
+    "name": "인텔 코어i3 14100",
+    "id": 32038820,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 730",
+      "base_clock": "3.5GHz",
+      "boost_clock": "4.7GHz",
+      "l2_cache": "5MB",
+      "l3_cache": "12MB",
+      "pbp-mtp": "60-110W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1733",
+      "cinebench_r23_multi": "9285",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=32038667",
+    "image_url": "https://img.danawa.com/prod_img/500000/667/038/img/32038667_1.jpg",
+    "name": "인텔 코어i5 14400F",
+    "id": 32038667,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.5GHz",
+      "boost_clock": "4.7GHz",
+      "l2_cache": "9.5MB",
+      "l3_cache": "20MB",
+      "pbp-mtp": "65-148W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1790",
+      "cinebench_r23_multi": "17804",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18718496",
+    "image_url": "https://img.danawa.com/prod_img/500000/496/718/img/18718496_1.jpg",
+    "name": "AMD 라이젠5 7600",
+    "id": 18718496,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.1GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1864",
+      "cinebench_r23_multi": "14387",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12625265",
+    "image_url": "https://img.danawa.com/prod_img/500000/265/625/img/12625265_1.jpg",
+    "name": "AMD 라이젠5 5600X",
+    "id": 12625265,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1502",
+      "cinebench_r23_multi": "11073",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=60167690",
+    "image_url": "https://img.danawa.com/prod_img/500000/690/167/img/60167690_1.jpg",
+    "name": "AMD 라이젠5 5600GT",
+    "id": 60167690,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=74122856",
+    "image_url": "https://img.danawa.com/prod_img/500000/856/122/img/74122856_1.jpg",
+    "name": "인텔 코어 울트라7 시리즈2 265",
+    "id": 74122856,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "인텔 그래픽스(Xe LPG)",
+      "base_clock": "2.4GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "36MB",
+      "l3_cache": "30MB",
+      "pbp-mtp": "65-182W",
+      "supported_features": "인텔 딥러닝부스트",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "8",
+      "threads": "20",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16101326",
+    "image_url": "https://img.danawa.com/prod_img/500000/326/101/img/16101326_1.jpg",
+    "name": "인텔 코어i5 12400",
+    "id": 16101326,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 730",
+      "base_clock": "2.5GHz",
+      "boost_clock": "4.4GHz",
+      "l2_cache": "7.5MB",
+      "l3_cache": "18MB",
+      "tdp": "65~117W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1698",
+      "cinebench_r23_multi": "12396",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=28799732",
+    "image_url": "https://img.danawa.com/prod_img/500000/732/799/img/28799732_1.jpg",
+    "name": "인텔 코어i5 14600KF",
+    "id": 28799732,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.5GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "20MB",
+      "l3_cache": "24MB",
+      "pbp-mtp": "125-181W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2054",
+      "cinebench_r23_multi": "24086",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=74123084",
+    "image_url": "https://img.danawa.com/prod_img/500000/084/123/img/74123084_1.jpg",
+    "name": "인텔 코어 울트라5 시리즈2 225",
+    "id": 74123084,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "인텔 그래픽스(Xe LPG)",
+      "base_clock": "3.3GHz",
+      "boost_clock": "4.9GHz",
+      "l2_cache": "22MB",
+      "l3_cache": "20MB",
+      "pbp-mtp": "65-121W",
+      "supported_features": "인텔 딥러닝부스트",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "6",
+      "threads": "10",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=74122937",
+    "image_url": "https://img.danawa.com/prod_img/500000/937/122/img/74122937_1.jpg",
+    "name": "인텔 코어 울트라7 시리즈2 265F",
+    "id": 74122937,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.4GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "36MB",
+      "l3_cache": "30MB",
+      "pbp-mtp": "65-182W",
+      "supported_features": "인텔 딥러닝부스트",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "8",
+      "threads": "20",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13619939",
+    "image_url": "https://img.danawa.com/prod_img/500000/939/619/img/13619939_1.jpg",
+    "name": "인텔 코어i5 11600K",
+    "id": 13619939,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 750",
+      "base_clock": "3.9GHz",
+      "boost_clock": "4.9GHz",
+      "l3_cache": "12MB",
+      "tdp": "125W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=69059771",
+    "image_url": "https://img.danawa.com/prod_img/500000/771/059/img/69059771_1.jpg",
+    "name": "인텔 코어 울트라5 시리즈2 245KF",
+    "id": 69059771,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "미탑재",
+      "base_clock": "4.2GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "26MB",
+      "l3_cache": "24MB",
+      "pbp-mtp": "125-159W",
+      "supported_features": [
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2123",
+      "cinebench_r23_multi": "25589",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "6",
+      "threads": "14",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=74123036",
+    "image_url": "https://img.danawa.com/prod_img/500000/036/123/img/74123036_1.jpg",
+    "name": "인텔 코어 울트라5 시리즈2 235",
+    "id": 74123036,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "인텔 그래픽스(Xe LPG)",
+      "base_clock": "3.4GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "26MB",
+      "l3_cache": "24MB",
+      "pbp-mtp": "65-121W",
+      "supported_features": "인텔 딥러닝부스트",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "6",
+      "threads": "14",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=20613197",
+    "image_url": "https://img.danawa.com/prod_img/500000/197/613/img/20613197_1.jpg",
+    "name": "AMD 라이젠9 7950X",
+    "id": 20613197,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.5GHz",
+      "boost_clock": "5.7GHz",
+      "l2_cache": "16MB",
+      "l3_cache": "64MB",
+      "tdp": "170W",
+      "ppt": "230W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "2025",
+      "cinebench_r23_multi": "36836",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18640280",
+    "image_url": "https://img.danawa.com/prod_img/500000/280/640/img/18640280_1.jpg",
+    "name": "인텔 코어i5 13400F",
+    "id": 18640280,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.5GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "9.5MB",
+      "l3_cache": "20MB",
+      "pbp-mtp": "65-148W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1789",
+      "cinebench_r23_multi": "14621",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=32038001",
+    "image_url": "https://img.danawa.com/prod_img/500000/001/038/img/32038001_1.jpg",
+    "name": "인텔 코어i7 14700",
+    "id": 32038001,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "2.1GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "28MB",
+      "l3_cache": "33MB",
+      "pbp-mtp": "65-219W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "2077",
+      "cinebench_r23_multi": "31928",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=74122559",
+    "image_url": "https://img.danawa.com/prod_img/500000/559/122/img/74122559_1.jpg",
+    "name": "인텔 코어 울트라9 시리즈2 285",
+    "id": 74122559,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "인텔 그래픽스(Xe LPG)",
+      "base_clock": "2.5GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "40MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "65-182W",
+      "supported_features": "인텔 딥러닝부스트",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1851",
+      "cores": "8",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "6400MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16101464",
+    "image_url": "https://img.danawa.com/prod_img/500000/464/101/img/16101464_1.jpg",
+    "name": "인텔 코어i7 12700F",
+    "id": 16101464,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.1GHz",
+      "boost_clock": "4.9GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "25MB",
+      "tdp": "65~180W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1854",
+      "cinebench_r23_multi": "20718",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16101083",
+    "image_url": "https://img.danawa.com/prod_img/500000/083/101/img/16101083_1.jpg",
+    "name": "인텔 코어i3 12100",
+    "id": 16101083,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 730",
+      "base_clock": "3.3GHz",
+      "boost_clock": "4.3GHz",
+      "l2_cache": "5MB",
+      "l3_cache": "12MB",
+      "tdp": "60~89W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1666",
+      "cinebench_r23_multi": "8376",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=7565248",
+    "image_url": "https://img.danawa.com/prod_img/500000/248/565/img/7565248_1.jpg",
+    "name": "인텔 코어i5 9600KF",
+    "id": 7565248,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.6GHz",
+      "l3_cache": "9MB",
+      "tdp": "95W",
+      "supported_features": "옵테인",
+      "cooler": "미포함",
+      "manufacturer": "인텔",
+      "socket": "1151v2",
+      "cores": "6",
+      "threads": "6",
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=14927759",
+    "image_url": "https://img.danawa.com/prod_img/500000/759/927/img/14927759_1.jpg",
+    "name": "AMD 라이젠7 5700G",
+    "id": 14927759,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽 8",
+      "base_clock": "3.8GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1507",
+      "cinebench_r23_multi": "13898",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16101179",
+    "image_url": "https://img.danawa.com/prod_img/500000/179/101/img/16101179_1.jpg",
+    "name": "인텔 코어i3 12100F",
+    "id": 16101179,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.3GHz",
+      "boost_clock": "4.3GHz",
+      "l2_cache": "5MB",
+      "l3_cache": "12MB",
+      "tdp": "60~89W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1666",
+      "cinebench_r23_multi": "8376",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=32038256",
+    "image_url": "https://img.danawa.com/prod_img/500000/256/038/img/32038256_1.jpg",
+    "name": "인텔 코어i5 14500",
+    "id": 32038256,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "2.6GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "11.5MB",
+      "l3_cache": "24MB",
+      "pbp-mtp": "65-154W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1934",
+      "cinebench_r23_multi": "22045",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=15594638",
+    "image_url": "https://img.danawa.com/prod_img/500000/638/594/img/15594638_1.jpg",
+    "name": "인텔 코어i7 12700K",
+    "id": 15594638,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.6GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "25MB",
+      "tdp": "125~190W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1960",
+      "cinebench_r23_multi": "22788",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=15594446",
+    "image_url": "https://img.danawa.com/prod_img/500000/446/594/img/15594446_1.jpg",
+    "name": "인텔 코어i5 12600KF",
+    "id": 15594446,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.9GHz",
+      "l2_cache": "9.5MB",
+      "l3_cache": "20MB",
+      "tdp": "125~150W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1936",
+      "cinebench_r23_multi": "17438",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=7059166",
+    "image_url": "https://img.danawa.com/prod_img/500000/166/059/img/7059166_1.jpg",
+    "name": "인텔 코어i5 9400F",
+    "id": 7059166,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.9GHz",
+      "boost_clock": "4.1GHz",
+      "l3_cache": "9MB",
+      "tdp": "65W",
+      "supported_features": "옵테인",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1151v2",
+      "cores": "6",
+      "threads": "6",
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18640106",
+    "image_url": "https://img.danawa.com/prod_img/500000/106/640/img/18640106_1.jpg",
+    "name": "인텔 코어i3 13100F",
+    "id": 18640106,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.4GHz",
+      "boost_clock": "4.5GHz",
+      "l2_cache": "5MB",
+      "l3_cache": "12MB",
+      "pbp-mtp": "58-89W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1708",
+      "cinebench_r23_multi": "8728",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18640286",
+    "image_url": "https://img.danawa.com/prod_img/500000/286/640/img/18640286_1.jpg",
+    "name": "인텔 코어i5 13400",
+    "id": 18640286,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 730",
+      "base_clock": "2.5GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "9.5MB",
+      "l3_cache": "20MB",
+      "pbp-mtp": "65-154W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1785",
+      "cinebench_r23_multi": "15991",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=11405214",
+    "image_url": "https://img.danawa.com/prod_img/500000/214/405/img/11405214_1.jpg",
+    "name": "인텔 펜티엄 골드 G6400",
+    "id": 11405214,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 610",
+      "base_clock": "4.0GHz",
+      "l3_cache": "4MB",
+      "tdp": "58W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "2",
+      "threads": "4",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18640379",
+    "image_url": "https://img.danawa.com/prod_img/500000/379/640/img/18640379_1.jpg",
+    "name": "인텔 코어i7 13700F",
+    "id": 18640379,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.1GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "24MB",
+      "l3_cache": "30MB",
+      "pbp-mtp": "65-219W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "2019",
+      "cinebench_r23_multi": "28177",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=17157083",
+    "image_url": "https://img.danawa.com/prod_img/500000/083/157/img/17157083_1.jpg",
+    "name": "AMD 라이젠5 5600",
+    "id": 17157083,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.5GHz",
+      "boost_clock": "4.4GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1460",
+      "cinebench_r23_multi": "10906",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18640397",
+    "image_url": "https://img.danawa.com/prod_img/500000/397/640/img/18640397_1.jpg",
+    "name": "인텔 코어i7 13700",
+    "id": 18640397,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "2.1GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "24MB",
+      "l3_cache": "30MB",
+      "pbp-mtp": "65-219W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "2002",
+      "cinebench_r23_multi": "29579",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18039569",
+    "image_url": "https://img.danawa.com/prod_img/500000/569/039/img/18039569_1.jpg",
+    "name": "인텔 코어i9 13900K",
+    "id": 18039569,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.0GHz",
+      "boost_clock": "5.8GHz",
+      "l2_cache": "32MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "125-253W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2251",
+      "cinebench_r23_multi": "38207",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=19627601",
+    "image_url": "https://img.danawa.com/prod_img/500000/601/627/img/19627601_1.jpg",
+    "name": "AMD 라이젠9 7950X3D",
+    "id": 19627601,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.2GHz",
+      "boost_clock": "5.7GHz",
+      "l2_cache": "16MB",
+      "l3_cache": "128MB",
+      "tdp": "120W",
+      "ppt": "162W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2060",
+      "cinebench_r23_multi": "36372",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=11489973",
+    "image_url": "https://img.danawa.com/prod_img/500000/973/489/img/11489973_1.jpg",
+    "name": "인텔 코어i5 10400F",
+    "id": 11489973,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.9GHz",
+      "boost_clock": "4.3GHz",
+      "l3_cache": "12MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18640442",
+    "image_url": "https://img.danawa.com/prod_img/500000/442/640/img/18640442_1.jpg",
+    "name": "인텔 코어i9 13900F",
+    "id": 18640442,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.0GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "32MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "65-219W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "2180",
+      "cinebench_r23_multi": "37135",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16872089",
+    "image_url": "https://img.danawa.com/prod_img/500000/089/872/img/16872089_1.jpg",
+    "name": "AMD 라이젠7 5800X3D",
+    "id": 16872089,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.4GHz",
+      "boost_clock": "4.5GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "96MB",
+      "tdp": "105W",
+      "ppt": "142W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "VR Ready 프리미엄",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1452",
+      "cinebench_r23_multi": "14414",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=19174415",
+    "image_url": "https://img.danawa.com/prod_img/500000/415/174/img/19174415_1.jpg",
+    "name": "AMD 라이젠9 7950X3D",
+    "id": 19174415,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.2GHz",
+      "boost_clock": "5.7GHz",
+      "l2_cache": "16MB",
+      "l3_cache": "128MB",
+      "tdp": "120W",
+      "ppt": "162W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2060",
+      "cinebench_r23_multi": "36372",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12836186",
+    "image_url": "https://img.danawa.com/prod_img/500000/186/836/img/12836186_1.jpg",
+    "name": "AMD 라이젠7 5800X",
+    "id": 12836186,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.8GHz",
+      "boost_clock": "4.7GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "32MB",
+      "tdp": "105W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1593",
+      "cinebench_r23_multi": "15416",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16740791",
+    "image_url": "https://img.danawa.com/prod_img/500000/791/740/img/16740791_1.jpg",
+    "name": "AMD 라이젠5 5500",
+    "id": 16740791,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.2GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "2000",
+      "cinebench_r23_multi": "8046",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16140809",
+    "image_url": "https://img.danawa.com/prod_img/500000/809/140/img/16140809_1.jpg",
+    "name": "인텔 코어i7 12700",
+    "id": 16140809,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "2.1GHz",
+      "boost_clock": "4.9GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "25MB",
+      "tdp": "65~180W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1884",
+      "cinebench_r23_multi": "19799",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=32037824",
+    "image_url": "https://img.danawa.com/prod_img/500000/824/037/img/32037824_1.jpg",
+    "name": "인텔 코어i9 14900",
+    "id": 32037824,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "2.0GHz",
+      "boost_clock": "5.8GHz",
+      "l3_cache": "36MB",
+      "pbp-mtp": "65-219W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "2242",
+      "cinebench_r23_multi": "39575",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12622319",
+    "image_url": "https://img.danawa.com/prod_img/500000/319/622/img/12622319_1.jpg",
+    "name": "AMD 라이젠9 5950X",
+    "id": 12622319,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.4GHz",
+      "boost_clock": "4.9GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "64MB",
+      "tdp": "105W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=15594701",
+    "image_url": "https://img.danawa.com/prod_img/500000/701/594/img/15594701_1.jpg",
+    "name": "인텔 코어i7 12700KF",
+    "id": 15594701,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "25MB",
+      "tdp": "125~190W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1960",
+      "cinebench_r23_multi": "22788",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18640205",
+    "image_url": "https://img.danawa.com/prod_img/500000/205/640/img/18640205_1.jpg",
+    "name": "인텔 코어i3 13100",
+    "id": 18640205,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 730",
+      "base_clock": "3.4GHz",
+      "boost_clock": "4.5GHz",
+      "l2_cache": "5MB",
+      "l3_cache": "12MB",
+      "pbp-mtp": "60-89W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1697",
+      "cinebench_r23_multi": "8774",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18038831",
+    "image_url": "https://img.danawa.com/prod_img/500000/831/038/img/18038831_1.jpg",
+    "name": "인텔 코어i5 13600KF",
+    "id": 18038831,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.5GHz",
+      "boost_clock": "5.1GHz",
+      "l2_cache": "20MB",
+      "l3_cache": "24MB",
+      "pbp-mtp": "125-181W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1801",
+      "cinebench_r23_multi": "23478",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18630722",
+    "image_url": "https://img.danawa.com/prod_img/500000/722/630/img/18630722_1.jpg",
+    "name": "AMD 라이젠9 5950X",
+    "id": 18630722,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.4GHz",
+      "boost_clock": "4.9GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "64MB",
+      "tdp": "105W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18039512",
+    "image_url": "https://img.danawa.com/prod_img/500000/512/039/img/18039512_1.jpg",
+    "name": "인텔 코어i9 13900KF",
+    "id": 18039512,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.0GHz",
+      "boost_clock": "5.8GHz",
+      "l2_cache": "32MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "125-253W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2258",
+      "cinebench_r23_multi": "38753",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12837425",
+    "image_url": "https://img.danawa.com/prod_img/500000/425/837/img/12837425_1.jpg",
+    "name": "AMD 라이젠9 5900X",
+    "id": 12837425,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.8GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "64MB",
+      "tdp": "105W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=32037701",
+    "image_url": "https://img.danawa.com/prod_img/500000/701/037/img/32037701_1.jpg",
+    "name": "인텔 코어i9 14900F",
+    "id": 32037701,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.0GHz",
+      "boost_clock": "5.8GHz",
+      "l2_cache": "32MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "65-219W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "2232",
+      "cinebench_r23_multi": "39577",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=17913980",
+    "image_url": "https://img.danawa.com/prod_img/500000/980/913/img/17913980_1.jpg",
+    "name": "AMD 라이젠9 7950X",
+    "id": 17913980,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.5GHz",
+      "boost_clock": "5.7GHz",
+      "l2_cache": "16MB",
+      "l3_cache": "64MB",
+      "tdp": "170W",
+      "ppt": "230W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "2025",
+      "cinebench_r23_multi": "36836",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18640472",
+    "image_url": "https://img.danawa.com/prod_img/500000/472/640/img/18640472_1.jpg",
+    "name": "인텔 코어i9 13900",
+    "id": 18640472,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "2.0GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "32MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "65-219W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "2187",
+      "cinebench_r23_multi": "37457",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=7517686",
+    "image_url": "https://img.danawa.com/prod_img/500000/686/517/img/7517686_1.jpg",
+    "name": "인텔 코어i7 9700KF",
+    "id": 7517686,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.9GHz",
+      "l3_cache": "12MB",
+      "tdp": "95W",
+      "supported_features": "옵테인",
+      "cooler": "미포함",
+      "manufacturer": "인텔",
+      "socket": "1151v2",
+      "cores": "8",
+      "threads": "8",
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=5529981",
+    "image_url": "https://img.danawa.com/prod_img/500000/981/529/img/5529981_1.jpg",
+    "name": "인텔 코어i7 8700K",
+    "id": 5529981,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 630",
+      "base_clock": "3.70GHz",
+      "boost_clock": "4.70GHz",
+      "l3_cache": "12MB",
+      "tdp": "95W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "인텔",
+      "socket": "1151v2",
+      "cores": "6",
+      "threads": "12",
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16100840",
+    "image_url": "https://img.danawa.com/prod_img/500000/840/100/img/16100840_1.jpg",
+    "name": "인텔 셀러론 G6900",
+    "id": 16100840,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 710",
+      "base_clock": "3.4GHz",
+      "l2_cache": "2.5MB",
+      "l3_cache": "4MB",
+      "tdp": "46W",
+      "supported_features": [
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "2",
+      "threads": "2",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18039374",
+    "image_url": "https://img.danawa.com/prod_img/500000/374/039/img/18039374_1.jpg",
+    "name": "인텔 코어i7 13700K",
+    "id": 18039374,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.4GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "24MB",
+      "l3_cache": "30MB",
+      "pbp-mtp": "125-253W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2093",
+      "cinebench_r23_multi": "29522",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=11308551",
+    "image_url": "https://img.danawa.com/prod_img/500000/551/308/img/11308551_1.jpg",
+    "name": "인텔 코어i5 10400",
+    "id": 11308551,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 630",
+      "base_clock": "2.9GHz",
+      "boost_clock": "4.3GHz",
+      "l3_cache": "12MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=15594887",
+    "image_url": "https://img.danawa.com/prod_img/500000/887/594/img/15594887_1.jpg",
+    "name": "인텔 코어i9 12900K",
+    "id": 15594887,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.2GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "14MB",
+      "l3_cache": "30MB",
+      "tdp": "125~241W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2044",
+      "cinebench_r23_multi": "27746",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=15594263",
+    "image_url": "https://img.danawa.com/prod_img/500000/263/594/img/15594263_1.jpg",
+    "name": "인텔 코어i5 12600K",
+    "id": 15594263,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.9GHz",
+      "l2_cache": "9.5MB",
+      "l3_cache": "20MB",
+      "tdp": "125~150W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1936",
+      "cinebench_r23_multi": "17438",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18640319",
+    "image_url": "https://img.danawa.com/prod_img/500000/319/640/img/18640319_1.jpg",
+    "name": "인텔 코어i5 13500",
+    "id": 18640319,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "2.5GHz",
+      "boost_clock": "4.8GHz",
+      "l2_cache": "11.5MB",
+      "l3_cache": "24MB",
+      "pbp-mtp": "65-154W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 퀵싱크",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "cinebench_r23_single": "1866",
+      "cinebench_r23_multi": "20651",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=6020667",
+    "image_url": "https://img.danawa.com/prod_img/500000/667/020/img/6020667_1.jpg",
+    "name": "인텔 코어i5 8500",
+    "id": 6020667,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 630",
+      "base_clock": "3.0GHz",
+      "boost_clock": "4.1GHz",
+      "l3_cache": "9MB",
+      "tdp": "65W",
+      "supported_features": "옵테인",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1151v2",
+      "cores": "6",
+      "threads": "6",
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16100921",
+    "image_url": "https://img.danawa.com/prod_img/500000/921/100/img/16100921_1.jpg",
+    "name": "인텔 펜티엄 골드 G7400",
+    "id": 16100921,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 710",
+      "base_clock": "3.7GHz",
+      "l2_cache": "2.5MB",
+      "l3_cache": "6MB",
+      "tdp": "46W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "2",
+      "threads": "4",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=5530013",
+    "image_url": "https://img.danawa.com/prod_img/500000/013/530/img/5530013_1.jpg",
+    "name": "인텔 코어i7 8700",
+    "id": 5530013,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 630",
+      "base_clock": "3.20GHz",
+      "boost_clock": "4.60GHz",
+      "l3_cache": "12MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1151v2",
+      "cores": "6",
+      "threads": "12",
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=17913710",
+    "image_url": "https://img.danawa.com/prod_img/500000/710/913/img/17913710_1.jpg",
+    "name": "AMD 라이젠7 7700X",
+    "id": 17913710,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.5GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "32MB",
+      "tdp": "105W",
+      "ppt": "142W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "2018",
+      "cinebench_r23_multi": "20059",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=11405586",
+    "image_url": "https://img.danawa.com/prod_img/500000/586/405/img/11405586_1.jpg",
+    "name": "인텔 코어i7 10700",
+    "id": 11405586,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 630",
+      "base_clock": "2.9GHz",
+      "boost_clock": "4.8GHz",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2933MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=17913863",
+    "image_url": "https://img.danawa.com/prod_img/500000/863/913/img/17913863_1.jpg",
+    "name": "AMD 라이젠9 7900X",
+    "id": 17913863,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.7GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "64MB",
+      "tdp": "170W",
+      "ppt": "230W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "2034",
+      "cinebench_r23_multi": "29349",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18725225",
+    "image_url": "https://img.danawa.com/prod_img/500000/225/725/img/18725225_1.jpg",
+    "name": "인텔 코어i9 13900KS",
+    "id": 18725225,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "3.2GHz",
+      "boost_clock": "6.0GHz",
+      "l2_cache": "32MB",
+      "l3_cache": "36MB",
+      "pbp-mtp": "150-253W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2336",
+      "cinebench_r23_multi": "40316",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=8460291",
+    "image_url": "https://img.danawa.com/prod_img/500000/291/460/img/8460291_1.jpg",
+    "name": "AMD 라이젠3 3200G",
+    "id": 8460291,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 Vega 8",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4GHz",
+      "l2_cache": "2MB",
+      "l3_cache": "4MB",
+      "tdp": "65W",
+      "supported_features": "SenseMI",
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "4",
+      "threads": "4",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2933MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18718592",
+    "image_url": "https://img.danawa.com/prod_img/500000/592/718/img/18718592_1.jpg",
+    "name": "AMD 라이젠9 7900",
+    "id": 18718592,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.7GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "64MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith PRISM 포함",
+      "cinebench_r23_single": "1969",
+      "cinebench_r23_multi": "24527",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18718532",
+    "image_url": "https://img.danawa.com/prod_img/500000/532/718/img/18718532_1.jpg",
+    "name": "AMD 라이젠7 7700",
+    "id": 18718532,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith PRISM 포함",
+      "cinebench_r23_single": "1933",
+      "cinebench_r23_multi": "18854",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18718481",
+    "image_url": "https://img.danawa.com/prod_img/500000/481/718/img/18718481_1.jpg",
+    "name": "AMD 라이젠5 7600",
+    "id": 18718481,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.1GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1864",
+      "cinebench_r23_multi": "14387",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12622091",
+    "image_url": "https://img.danawa.com/prod_img/500000/091/622/img/12622091_1.jpg",
+    "name": "AMD 라이젠9 5900X",
+    "id": 12622091,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.8GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "64MB",
+      "tdp": "105W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1578",
+      "cinebench_r23_multi": "20811",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=15137684",
+    "image_url": "https://img.danawa.com/prod_img/500000/684/137/img/15137684_1.jpg",
+    "name": "AMD 라이젠5 5600X",
+    "id": 15137684,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith PRISM 포함",
+      "cinebench_r23_single": "1502",
+      "cinebench_r23_multi": "11073",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=10861092",
+    "image_url": "https://img.danawa.com/prod_img/500000/092/861/img/10861092_1.jpg",
+    "name": "AMD 라이젠5 3600",
+    "id": 10861092,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.2GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "StoreMI"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12621851",
+    "image_url": "https://img.danawa.com/prod_img/500000/851/621/img/12621851_1.jpg",
+    "name": "AMD 라이젠5 5600X",
+    "id": 12621851,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1502",
+      "cinebench_r23_multi": "11073",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13619846",
+    "image_url": "https://img.danawa.com/prod_img/500000/846/619/img/13619846_1.jpg",
+    "name": "인텔 코어i5 11400",
+    "id": 13619846,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 730",
+      "base_clock": "2.6GHz",
+      "boost_clock": "4.4GHz",
+      "l3_cache": "12MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=18039356",
+    "image_url": "https://img.danawa.com/prod_img/500000/356/039/img/18039356_1.jpg",
+    "name": "인텔 코어i7 13700KF",
+    "id": 18039356,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.4GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "24MB",
+      "l3_cache": "30MB",
+      "pbp-mtp": "125-253W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 XTU",
+        "인텔 딥러닝부스트"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1978",
+      "cinebench_r23_multi": "30354",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5600",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13620026",
+    "image_url": "https://img.danawa.com/prod_img/500000/026/620/img/13620026_1.jpg",
+    "name": "인텔 코어i9 11900K",
+    "id": 13620026,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 750",
+      "base_clock": "3.5GHz",
+      "boost_clock": "5.3GHz",
+      "l3_cache": "16MB",
+      "tdp": "125W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=19174175",
+    "image_url": "https://img.danawa.com/prod_img/500000/175/174/img/19174175_1.jpg",
+    "name": "AMD 라이젠9 7900X3D",
+    "id": 19174175,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.4GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "128MB",
+      "tdp": "120W",
+      "ppt": "162W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2058",
+      "cinebench_r23_multi": "27997",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=5530356",
+    "image_url": "https://img.danawa.com/prod_img/500000/356/530/img/5530356_1.jpg",
+    "name": "인텔 코어i5 8400",
+    "id": 5530356,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 630",
+      "base_clock": "2.80GHz",
+      "boost_clock": "4.00GHz",
+      "l3_cache": "9MB",
+      "tdp": "65W",
+      "supported_features": "옵테인",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1151v2",
+      "cores": "6",
+      "threads": "6",
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=5530356",
+    "image_url": "https://img.danawa.com/prod_img/500000/356/530/img/5530356_1.jpg",
+    "name": "인텔 코어i5 8400",
+    "id": 5530356,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 630",
+      "base_clock": "2.80GHz",
+      "boost_clock": "4.00GHz",
+      "l3_cache": "9MB",
+      "tdp": "65W",
+      "supported_features": "옵테인",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1151v2",
+      "cores": "6",
+      "threads": "6",
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13619897",
+    "image_url": "https://img.danawa.com/prod_img/500000/897/619/img/13619897_1.jpg",
+    "name": "인텔 코어i5 11500",
+    "id": 13619897,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 750",
+      "base_clock": "2.7GHz",
+      "boost_clock": "4.6GHz",
+      "l3_cache": "12MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=17913311",
+    "image_url": "https://img.danawa.com/prod_img/500000/311/913/img/17913311_1.jpg",
+    "name": "AMD 라이젠5 7600X",
+    "id": 17913311,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.7GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "105W",
+      "ppt": "142W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "1961",
+      "cinebench_r23_multi": "15215",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16740674",
+    "image_url": "https://img.danawa.com/prod_img/500000/674/740/img/16740674_1.jpg",
+    "name": "AMD 라이젠5 4500",
+    "id": 16740674,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.1GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "8MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16101545",
+    "image_url": "https://img.danawa.com/prod_img/500000/545/101/img/16101545_1.jpg",
+    "name": "인텔 코어i9 12900",
+    "id": 16101545,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "인텔 UHD 770",
+      "base_clock": "2.4GHz",
+      "boost_clock": "5.1GHz",
+      "l2_cache": "14MB",
+      "l3_cache": "30MB",
+      "tdp": "65~202W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=14927753",
+    "image_url": "https://img.danawa.com/prod_img/500000/753/927/img/14927753_1.jpg",
+    "name": "AMD 라이젠7 5700G",
+    "id": 14927753,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽 8",
+      "base_clock": "3.8GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1507",
+      "cinebench_r23_multi": "13898",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=9374721",
+    "image_url": "https://img.danawa.com/prod_img/500000/721/374/img/9374721_1.jpg",
+    "name": "AMD 라이젠9 3900X",
+    "id": 9374721,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.8GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "64MB",
+      "tdp": "105W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "StoreMI"
+      ],
+      "cooler": "Wraith PRISM 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=9421629",
+    "image_url": "https://img.danawa.com/prod_img/500000/629/421/img/9421629_1.jpg",
+    "name": "AMD 라이젠7 3700X",
+    "id": 9421629,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.4GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "StoreMI"
+      ],
+      "cooler": "Wraith PRISM 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=7559767",
+    "image_url": "https://img.danawa.com/prod_img/500000/767/559/img/7559767_1.jpg",
+    "name": "인텔 코어i9 9900KF",
+    "id": 7559767,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "5.0GHz",
+      "l3_cache": "16MB",
+      "tdp": "95W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "인텔",
+      "socket": "1151v2",
+      "cores": "8",
+      "threads": "16",
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12122969",
+    "image_url": "https://img.danawa.com/prod_img/500000/969/122/img/12122969_1.jpg",
+    "name": "인텔 셀러론 G5905",
+    "id": 12122969,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 610",
+      "base_clock": "3.5GHz",
+      "l3_cache": "4MB",
+      "tdp": "58W",
+      "supported_features": "옵테인",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "2",
+      "threads": "2",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=19627457",
+    "image_url": "https://img.danawa.com/prod_img/500000/457/627/img/19627457_1.jpg",
+    "name": "AMD 라이젠9 7900X3D",
+    "id": 19627457,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.4GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "128MB",
+      "tdp": "120W",
+      "ppt": "162W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2058",
+      "cinebench_r23_multi": "27997",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=15594956",
+    "image_url": "https://img.danawa.com/prod_img/500000/956/594/img/15594956_1.jpg",
+    "name": "인텔 코어i9 12900KF",
+    "id": 15594956,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.2GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "14MB",
+      "l3_cache": "30MB",
+      "tdp": "125~241W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2044",
+      "cinebench_r23_multi": "27746",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13620101",
+    "image_url": "https://img.danawa.com/prod_img/500000/101/620/img/13620101_1.jpg",
+    "name": "인텔 펜티엄 골드 G6405",
+    "id": 13620101,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 610",
+      "base_clock": "4.1GHz",
+      "l3_cache": "4MB",
+      "tdp": "58W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "2",
+      "threads": "4",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=17214128",
+    "image_url": "https://img.danawa.com/prod_img/500000/128/214/img/17214128_1.jpg",
+    "name": "AMD 라이젠5 4600G",
+    "id": 17214128,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽 7",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.2GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "8MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=11876290",
+    "image_url": "https://img.danawa.com/prod_img/500000/290/876/img/11876290_1.jpg",
+    "name": "AMD 라이젠3 PRO 4350G",
+    "id": 11876290,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽 6",
+      "base_clock": "3.8GHz",
+      "boost_clock": "4.0GHz",
+      "l2_cache": "2MB",
+      "l3_cache": "4MB",
+      "tdp": "65W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=16101581",
+    "image_url": "https://img.danawa.com/prod_img/500000/581/101/img/16101581_1.jpg",
+    "name": "인텔 코어i9 12900F",
+    "id": 16101581,
+    "spec": {
+      "memory_type": [
+        "DDR5",
+        "DDR4"
+      ],
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.4GHz",
+      "boost_clock": "5.1GHz",
+      "l2_cache": "14MB",
+      "l3_cache": "30MB",
+      "tdp": "65~202W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1700",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0",
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "4800",
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=10176534",
+    "image_url": "https://img.danawa.com/prod_img/500000/534/176/img/10176534_1.jpg",
+    "name": "AMD 라이젠5 3400G",
+    "id": 10176534,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 Vega 11",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.2GHz",
+      "l2_cache": "2MB",
+      "l3_cache": "4MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI"
+      ],
+      "cooler": "Wraith Spire 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2933MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=4929101",
+    "image_url": "https://img.danawa.com/prod_img/500000/101/929/img/4929101_1.jpg",
+    "name": "AMD 라이젠7 1800X",
+    "id": 4929101,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.0GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "16MB",
+      "tdp": "95W",
+      "supported_features": "SenseMI",
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16"
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12625094",
+    "image_url": "https://img.danawa.com/prod_img/500000/094/625/img/12625094_1.jpg",
+    "name": "AMD 라이젠3 3300X",
+    "id": 12625094,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.8GHz",
+      "boost_clock": "4.3GHz",
+      "l2_cache": "2MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "StoreMI"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=27945140",
+    "image_url": "https://img.danawa.com/prod_img/500000/140/945/img/27945140_1.jpg",
+    "name": "AMD 라이젠7 7700X",
+    "id": 27945140,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.5GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "32MB",
+      "tdp": "105W",
+      "ppt": "142W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "2018",
+      "cinebench_r23_multi": "20059",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=53779649",
+    "image_url": "https://img.danawa.com/prod_img/500000/649/779/img/53779649_1.jpg",
+    "name": "AMD 라이젠7 8700F",
+    "id": 53779649,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "미탑재",
+      "base_clock": "4.1GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master",
+        "AMD Ryzen AI"
+      ],
+      "cooler": "AMD 기본쿨러 포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=34336865",
+    "image_url": "https://img.danawa.com/prod_img/500000/865/336/img/34336865_1.jpg",
+    "name": "AMD 라이젠7 5700X3D",
+    "id": 34336865,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.0GHz",
+      "boost_clock": "4.1GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "96MB",
+      "tdp": "105W",
+      "ppt": "142W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1367",
+      "cinebench_r23_multi": "13788",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=53626130",
+    "image_url": "https://img.danawa.com/prod_img/500000/130/626/img/53626130_1.jpg",
+    "name": "AMD 라이젠5 8400F",
+    "id": 53626130,
+    "spec": {
+      "memory_type": "DDR5",
+      "base_clock": "4.2GHz",
+      "boost_clock": "4.7GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "AMD 기본쿨러 포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=63140387",
+    "image_url": "https://img.danawa.com/prod_img/500000/387/140/img/63140387_1.jpg",
+    "name": "AMD 라이젠9 9900X",
+    "id": 63140387,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.4GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "64MB",
+      "tdp": "120W",
+      "ppt": "162W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2220",
+      "cinebench_r23_multi": "32038",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=28402418",
+    "image_url": "https://img.danawa.com/prod_img/500000/418/402/img/28402418_1.jpg",
+    "name": "AMD 라이젠9 7900X",
+    "id": 28402418,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.7GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "64MB",
+      "tdp": "170W",
+      "ppt": "230W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "2034",
+      "cinebench_r23_multi": "29349",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=54218171",
+    "image_url": "https://img.danawa.com/prod_img/500000/171/218/img/54218171_1.jpg",
+    "name": "AMD 라이젠5 5500GT",
+    "id": 54218171,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.4GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_multi": "6905",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=60170150",
+    "image_url": "https://img.danawa.com/prod_img/500000/150/170/img/60170150_1.jpg",
+    "name": "AMD 라이젠5 8500G",
+    "id": 60170150,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 740M",
+      "base_clock": "3.5GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1807",
+      "cinebench_r23_multi": "11541",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "2",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=63139097",
+    "image_url": "https://img.danawa.com/prod_img/500000/097/139/img/63139097_1.jpg",
+    "name": "AMD 라이젠9 9900X",
+    "id": 63139097,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.4GHz",
+      "boost_clock": "5.6GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "64MB",
+      "tdp": "120W",
+      "ppt": "162W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2220",
+      "cinebench_r23_multi": "32038",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=76465280",
+    "image_url": "https://img.danawa.com/prod_img/500000/280/465/img/76465280_1.jpg",
+    "name": "AMD 라이젠5 9600",
+    "id": 76465280,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "2223",
+      "cinebench_r23_multi": "16998",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=79112576",
+    "image_url": "https://img.danawa.com/prod_img/500000/576/112/img/79112576_1.jpg",
+    "name": "AMD 라이젠5 7500F",
+    "id": 79112576,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12387029",
+    "image_url": "https://img.danawa.com/prod_img/500000/029/387/img/12387029_1.jpg",
+    "name": "인텔 셀러론 G5925",
+    "id": 12387029,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 610",
+      "base_clock": "3.6GHz",
+      "l3_cache": "4MB",
+      "tdp": "58W",
+      "supported_features": "옵테인",
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "2",
+      "threads": "2",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=63139115",
+    "image_url": "https://img.danawa.com/prod_img/500000/115/139/img/63139115_1.jpg",
+    "name": "AMD 라이젠9 9950X",
+    "id": 63139115,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.3GHz",
+      "boost_clock": "5.7GHz",
+      "l2_cache": "16MB",
+      "l3_cache": "64MB",
+      "tdp": "170W",
+      "ppt": "230W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "2309",
+      "cinebench_r23_multi": "42045",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=27757619",
+    "image_url": "https://img.danawa.com/prod_img/500000/619/757/img/27757619_1.jpg",
+    "name": "AMD 라이젠5 7600X",
+    "id": 27757619,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4.7GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "105W",
+      "ppt": "142W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "1961",
+      "cinebench_r23_multi": "15215",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=77624045",
+    "image_url": "https://img.danawa.com/prod_img/500000/045/624/img/77624045_1.jpg",
+    "name": "AMD 라이젠5 9600",
+    "id": 77624045,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.2GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "cinebench_r23_single": "2223",
+      "cinebench_r23_multi": "16998",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5600MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=74051159",
+    "image_url": "https://img.danawa.com/prod_img/500000/159/051/img/74051159_1.jpg",
+    "name": "AMD 라이젠5 5600XT",
+    "id": 74051159,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.5GHz",
+      "boost_clock": "4.7GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=70254251",
+    "image_url": "https://img.danawa.com/prod_img/500000/251/254/img/70254251_1.jpg",
+    "name": "AMD 라이젠3 5300G",
+    "id": 70254251,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "4GHz",
+      "boost_clock": "4.2GHz",
+      "l2_cache": "2MB",
+      "l3_cache": "8MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=70254059",
+    "image_url": "https://img.danawa.com/prod_img/500000/059/254/img/70254059_1.jpg",
+    "name": "AMD 라이젠5 5600T",
+    "id": 70254059,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.5GHz",
+      "boost_clock": "4.5GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=34336664",
+    "image_url": "https://img.danawa.com/prod_img/500000/664/336/img/34336664_1.jpg",
+    "name": "AMD 라이젠7 8700G",
+    "id": 34336664,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 780M",
+      "base_clock": "4.2GHz",
+      "boost_clock": "5.1GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen AI"
+      ],
+      "cooler": "Wraith Spire 포함",
+      "cinebench_r23_single": "1705",
+      "cinebench_r23_multi": "17654",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=27521231",
+    "image_url": "https://img.danawa.com/prod_img/500000/231/521/img/27521231_1.jpg",
+    "name": "AMD 라이젠7 5800X3D",
+    "id": 27521231,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.4GHz",
+      "boost_clock": "4.5GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "96MB",
+      "tdp": "105W",
+      "ppt": "142W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "VR Ready 프리미엄",
+        "AMD 3D V캐시"
+      ],
+      "cooler": "미포함",
+      "cinebench_r23_single": "1452",
+      "cinebench_r23_multi": "14414",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=62165036",
+    "image_url": "https://img.danawa.com/prod_img/500000/036/165/img/62165036_1.jpg",
+    "name": "AMD 라이젠9 5900XT",
+    "id": 62165036,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.3GHz",
+      "boost_clock": "4.8GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "64MB",
+      "tdp": "105W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "16",
+      "threads": "32",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=62164991",
+    "image_url": "https://img.danawa.com/prod_img/500000/991/164/img/62164991_1.jpg",
+    "name": "AMD 라이젠7 5800XT",
+    "id": 62164991,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.8GHz",
+      "boost_clock": "4.8GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "32MB",
+      "tdp": "105W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith PRISM 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=34336475",
+    "image_url": "https://img.danawa.com/prod_img/500000/475/336/img/34336475_1.jpg",
+    "name": "AMD 라이젠5 8600G",
+    "id": 34336475,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 760M",
+      "base_clock": "4.3GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD Ryzen AI"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1662",
+      "cinebench_r23_multi": "13513",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=34337198",
+    "image_url": "https://img.danawa.com/prod_img/500000/198/337/img/34337198_1.jpg",
+    "name": "AMD 라이젠5 5500GT",
+    "id": 34337198,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.4GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_multi": "6905",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=12487424",
+    "image_url": "https://img.danawa.com/prod_img/500000/424/487/img/12487424_1.jpg",
+    "name": "인텔 코어i3 10100F",
+    "id": 12487424,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.3GHz",
+      "l3_cache": "6MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13753394",
+    "image_url": "https://img.danawa.com/prod_img/500000/394/753/img/13753394_1.jpg",
+    "name": "인텔 코어i5 11400F",
+    "id": 13753394,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.6GHz",
+      "boost_clock": "4.4GHz",
+      "l3_cache": "12MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=34336130",
+    "image_url": "https://img.danawa.com/prod_img/500000/130/336/img/34336130_1.jpg",
+    "name": "AMD 라이젠5 8500G",
+    "id": 34336130,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 740M",
+      "base_clock": "3.5GHz",
+      "boost_clock": "5.0GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "Wraith Stealth 포함",
+      "cinebench_r23_single": "1807",
+      "cinebench_r23_multi": "11541",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "2",
+      "threads": "12",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=29658509",
+    "image_url": "https://img.danawa.com/prod_img/500000/509/658/img/29658509_1.jpg",
+    "name": "AMD 라이젠7 PRO 7745",
+    "id": 29658509,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.3GHz",
+      "l2_cache": "8MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD PRO"
+      ],
+      "cooler": "Wraith Spire 포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13753673",
+    "image_url": "https://img.danawa.com/prod_img/500000/673/753/img/13753673_1.jpg",
+    "name": "인텔 코어i9 11900F",
+    "id": 13753673,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.5GHz",
+      "boost_clock": "5.2GHz",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13753481",
+    "image_url": "https://img.danawa.com/prod_img/500000/481/753/img/13753481_1.jpg",
+    "name": "인텔 코어i7 11700F",
+    "id": 13753481,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "2.5GHz",
+      "boost_clock": "4.9GHz",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=14409386",
+    "image_url": "https://img.danawa.com/prod_img/500000/386/409/img/14409386_1.jpg",
+    "name": "인텔 코어i3 10105",
+    "id": 14409386,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "인텔 UHD 630",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.4GHz",
+      "l3_cache": "6MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13753334",
+    "image_url": "https://img.danawa.com/prod_img/500000/334/753/img/13753334_1.jpg",
+    "name": "인텔 코어i3 10105F",
+    "id": 13753334,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.4GHz",
+      "l3_cache": "6MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "옵테인"
+      ],
+      "cooler": "인텔 기본쿨러 포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "4",
+      "threads": "8",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "2666MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=34337192",
+    "image_url": "https://img.danawa.com/prod_img/500000/192/337/img/34337192_1.jpg",
+    "name": "AMD 라이젠5 5600GT",
+    "id": 34337192,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.6GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "3MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "SenseMI",
+        "AMD Ryzen Master"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=29658350",
+    "image_url": "https://img.danawa.com/prod_img/500000/350/658/img/29658350_1.jpg",
+    "name": "AMD 라이젠9 PRO 7945",
+    "id": 29658350,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.7GHz",
+      "boost_clock": "5.4GHz",
+      "l2_cache": "12MB",
+      "l3_cache": "64MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD PRO"
+      ],
+      "cooler": "Wraith Spire 포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "12",
+      "threads": "24",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=89606675",
+    "image_url": "https://img.danawa.com/prod_img/500000/675/606/img/89606675_1.jpg",
+    "name": "AMD 라이젠5 7600",
+    "id": 89606675,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.1GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "ppt": "88W",
+      "supported_features": "SMT(하이퍼스레딩)",
+      "cooler": "미포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=13753598",
+    "image_url": "https://img.danawa.com/prod_img/500000/598/753/img/13753598_1.jpg",
+    "name": "인텔 코어i7 11700KF",
+    "id": 13753598,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.6GHz",
+      "boost_clock": "5.0GHz",
+      "l3_cache": "16MB",
+      "tdp": "125W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "인텔 딥러닝부스트",
+        "옵테인"
+      ],
+      "cooler": "미포함",
+      "manufacturer": "인텔",
+      "socket": "1200",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "4.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=34337090",
+    "image_url": "https://img.danawa.com/prod_img/500000/090/337/img/34337090_1.jpg",
+    "name": "AMD 라이젠7 5700",
+    "id": 34337090,
+    "spec": {
+      "memory_type": "DDR4",
+      "integrated_graphics": "미탑재",
+      "base_clock": "3.7GHz",
+      "boost_clock": "4.6GHz",
+      "l2_cache": "4MB",
+      "l3_cache": "16MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "StoreMI",
+        "AMD Ryzen Master",
+        "VR Ready 프리미엄"
+      ],
+      "cooler": "Wraith Stealth 포함",
+      "manufacturer": "AMD",
+      "socket": "AM4",
+      "cores": "8",
+      "threads": "16",
+      "pcie_versions": [
+        "3.0"
+      ],
+      "max_memory_clock": [
+        "3200MHz"
+      ]
+    }
+  },
+  {
+    "product_url": "https://prod.danawa.com/info/?pcode=29658575",
+    "image_url": "https://img.danawa.com/prod_img/500000/575/658/img/29658575_1.jpg",
+    "name": "AMD 라이젠5 PRO 7645",
+    "id": 29658575,
+    "spec": {
+      "memory_type": "DDR5",
+      "integrated_graphics": "AMD 라데온 그래픽",
+      "base_clock": "3.8GHz",
+      "boost_clock": "5.1GHz",
+      "l2_cache": "6MB",
+      "l3_cache": "32MB",
+      "tdp": "65W",
+      "supported_features": [
+        "SMT(하이퍼스레딩)",
+        "AMD PRO"
+      ],
+      "cooler": "Wraith Spire 포함",
+      "manufacturer": "AMD",
+      "socket": "AM5",
+      "cores": "6",
+      "threads": "12",
+      "pcie_versions": [
+        "5.0"
+      ],
+      "max_memory_clock": [
+        "5200MHz"
+      ]
+    }
+  }
+]
