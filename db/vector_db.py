@@ -52,7 +52,7 @@ def embed_texts(texts: List[str]) -> List[List[float]]:
 def build_meta(item: Dict, category: str) -> Dict:
     """가격·재고가 비어 있으면 필드 자체를 생략한다."""
     meta = {
-        # "product_id": item["id"],
+        "product_id": item["id"],
         "name": item["name"],
         "product_url": item["product_url"],
         "image_url": item["image_url"],
@@ -88,14 +88,14 @@ for fp in json_files:
 #     print(texts)
 
 # ------------------ 배치 임베딩 & 업서트 ----------------
-# BATCH = 100
-# for i in range(0, len(records), BATCH):
-#     batch = records[i : i + BATCH]
-#     ids, texts, metas = zip(*batch)
-#     vectors = embed_texts(list(texts))
-#     index.upsert(vectors=list(zip(ids, vectors, metas)))
-#     # namespace="v2-2025-05-24"
-#     print(f"[{i+len(batch):>5}/{len(records)}] upsert 완료")
+BATCH = 100
+for i in range(0, len(records), BATCH):
+    batch = records[i : i + BATCH]
+    ids, texts, metas = zip(*batch)
+    vectors = embed_texts(list(texts))
+    index.upsert(vectors=list(zip(ids, vectors, metas)))
+    # namespace="v2-2025-05-24"
+    print(f"[{i+len(batch):>5}/{len(records)}] upsert 완료")
 
 
 # ---------------------- 테스트 --------------------------

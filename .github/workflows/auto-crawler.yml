@@ -24,8 +24,11 @@ jobs:
 
     - name: Install ChromeDriver matching system Chrome
       run: |
+        FULL_VER=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
+        echo "Detected Chrome version: $FULL_VER"
+        
         # Download and unzip
-        wget https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/linux64/chromedriver-linux64.zip
+        wget https://storage.googleapis.com/chrome-for-testing-public/${FULL_VER}/linux64/chromedriver-linux64.zip
         unzip -q chromedriver-linux64.zip -d driver/
 
     - name: Run Crawler
