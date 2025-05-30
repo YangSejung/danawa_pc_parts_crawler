@@ -22,16 +22,8 @@ jobs:
 
     - name: Install ChromeDriver matching system Chrome
       run: |
-        # Get Chrome version
-        CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
-        echo "Detected Chrome version: $CHROME_VERSION"
-    
-        # Get matching ChromeDriver version
-        DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
-        echo "Matching ChromeDriver version: $DRIVER_VERSION"
-    
         # Download and unzip
-        wget -N "https://chromedriver.storage.googleapis.com/$DRIVER_VERSION/chromedriver_linux64.zip"
+        wget -N "https://chromedriver.storage.googleapis.com/136.0.7103/chromedriver_linux64.zip"
         unzip -q chromedriver_linux64.zip -d driver/
         chmod +x chromedriver
 

@@ -38,7 +38,8 @@ logger.addHandler(_stream)
 # -------------------------------------------------------
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-DRIVER_PATH = BASE_DIR / "driver" / "chromedriver.exe"
+# DRIVER_PATH = BASE_DIR / "driver" / "chromedriver.exe" # Window
+DRIVER_PATH = BASE_DIR / "driver" / "chromedriver" # Linux
 
 DANAWA_VE_URL = "https://shop.danawa.com/virtualestimate/?controller=estimateMain&methods=index&marketPlaceSeq=16"
 
