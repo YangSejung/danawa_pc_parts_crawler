@@ -23,13 +23,13 @@ jobs:
         pip install -r requirements.txt
 
     - name: Install ChromeDriver matching system Chrome
-      run: |
-        FULL_VER=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
+      run: |        
+        FULL_VER=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
         echo "Detected Chrome version: $FULL_VER"
         
         # Download and unzip
         sudo apt-get install google-chrome-stable
-        wget https://chromedriver.storage.googleapis.com/111.0.5563.64/chromedriver_linux64.zip
+        wget https://chromedriver.storage.googleapis.com/{FULL_VER}/chromedriver_linux64.zip
         unzip -q chromedriver_linux64.zip -d driver/ 
         # wget https://storage.googleapis.com/chrome-for-testing-public/${FULL_VER}/linux64/chromedriver-linux64.zip
         # unzip -q chromedriver-linux64.zip -d driver/
