@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8711fcda-aa34-4575-866d-0cd8dfbc90bc" name="변경" comment="init">
       <change beforePath="$PROJECT_DIR$/.github/workflows/auto-crawler.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/auto-crawler.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/vector_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/vector_db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748596648943</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="init">
+      <option name="closed" value="true" />
+      <created>1748597417800</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1748597417800</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
