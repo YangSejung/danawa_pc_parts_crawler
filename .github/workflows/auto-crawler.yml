@@ -29,7 +29,7 @@ jobs:
       
         # Download and unzip
         wget https://storage.googleapis.com/chrome-for-testing-public/${FULL_VER}/linux64/chrome-linux64.zip
-        unzip -q chromedriver_linux64.zip -d driver/ 
+        unzip -q chromedriver-linux64.zip -d driver/ 
         
         # wget https://storage.googleapis.com/chrome-for-testing-public/${FULL_VER}/linux64/chromedriver-linux64.zip
         # unzip -q chromedriver-linux64.zip -d driver/
