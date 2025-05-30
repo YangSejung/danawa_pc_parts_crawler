@@ -30,7 +30,7 @@ jobs:
         echo "Using major version: $MAJOR_VER"
         
         # 해당 메이저 버전에 맞는 ChromeDriver 버전 조회
-        DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_${MAJOR_VER}")
+        DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/${FULL_VER}")
         echo "Matching ChromeDriver version: $DRIVER_VERSION"
         
         # Download and unzip
