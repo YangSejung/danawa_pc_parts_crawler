@@ -14,22 +14,26 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
 
-    - name: Ensure driver/ folder exists
-      run: mkdir -p driver
-
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
     - name: Install ChromeDriver matching system Chrome
-      run: |        
+      run: |
+        mkdir -p driver
+        
         FULL_VER=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+\.\d+')
         echo "Detected Chrome version: $FULL_VER"
       
         # Download and unzip
         wget https://storage.googleapis.com/chrome-for-testing-public/${FULL_VER}/linux64/chromedriver-linux64.zip
         unzip -q chromedriver-linux64.zip -d driver/ 
+
+    - name: List workspace files
+      run: |
+        echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
+        ls -R "$GITHUB_WORKSPACE"
 
     - name: Run Crawler
       run: |
