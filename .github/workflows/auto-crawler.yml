@@ -1,0 +1,47 @@
+name: Daily Crawler Update
+
+on:
+  #schedule:
+    #- cron: '0 0 * * *'  # 매일 자정 UTC (= 한국 9AM)
+    #- cron: '/10 * * * *'  # 매일 자정 UTC (= 한국 9AM)
+  workflow_dispatch:      # 수동 실행도 가능
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    workflow_dispatch:
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Ensure driver/ folder exists
+      run: mkdir -p driver
+
+    - name: Install dependencies
+      run: python -m pip install --upgrade pip
+
+    - name: Install ChromeDriver matching system Chrome
+      run: |
+        # Get Chrome version
+        CHROME_VERSION=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
+        echo "Detected Chrome version: $CHROME_VERSION"
+    
+        # Get matching ChromeDriver version
+        DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/LATEST_RELEASE_$CHROME_VERSION")
+        echo "Matching ChromeDriver version: $DRIVER_VERSION"
+    
+        # Download and unzip
+        wget -N "https://chromedriver.storage.googleapis.com/$DRIVER_VERSION/chromedriver_linux64.zip"
+        unzip -q chromedriver_linux64.zip -d driver/
+        chmod +x chromedriver
+
+    - name: Run Crawler
+      run: |
+        python crawlers/parts_info_crawler.py
+
+    - name: Push
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "Bot - Auto Crawl | $(date -d '+9 hour' +'%Y-%m-%d %H:%M:%S')"
+        file_pattern:
