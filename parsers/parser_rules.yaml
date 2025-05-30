@@ -1,0 +1,421 @@
+# CPU
+# 모든 제품은 이름 (코드네임) (패키지 형태)
+# /로 구분 시 ":" 미포함 -> 제조사(소켓), 코어, 스레드, 세대(AMD), 제조 공정, PCle, 메모리 클럭, 내장 그래픽 이름(탑제 시),
+# /로 구분 시 ":" 포함 -> 메모리 규격, 내장 그래픽 탑제 여부, 기본 클럭, 최대 클럭, L2 캐시, L3 캐시, PBP-MTP, 기술 지원, 쿨러, 출시가
+# 인텔 알파벳 별 구분:
+CPU:
+  name_rules:
+    # 1) 기본: 괄호 전까지 전체를 뽑아둔다 (Intel-style)
+    - key: name
+      regex: "^([^\\(]+)"
+    # 2) 대시+세대가 있는 경우에만 이 룰로 덮어쓴다 (AMD-style)
+    - key: name
+      regex: "^([^-]+?)-\\d+세대\\s*([^\\(]+)"
+      group: [1,2]
+
+#    - key: code_name
+#      regex: "\\(([^)]+)\\)"         # 첫 번째 괄호 안
+#    - key: package
+#      regex: "\\(([^)]+)\\).*\\(([^)]+)\\)"  # 두 번째 괄호 안
+#      group: 2
+
+  spec:
+    colon_keys:
+      메모리 규격: memory_type
+      내장그래픽: integrated_graphics
+      기본 클럭: base_clock
+      최대 클럭: boost_clock
+      L2 캐시: l2_cache
+      L3 캐시: l3_cache
+      PBP-MTP: pbp-mtp
+      TDP: tdp
+      PPT: ppt
+      쿨러: cooler
+      시네벤치R23(싱글): cinebench_r23_single
+      시네벤치R23(멀티): cinebench_r23_multi
+      기술 지원: supported_features
+#      출시가: released_price
+    non_colon_patterns:
+      - key: manufacturer
+        regex: "^(.+?)\\(소켓([^)]+)\\)"
+        groups: [1]
+      - key: socket
+        regex: "^(.+?)\\(소켓([^)]+)\\)"
+        groups: [2]
+      - key: cores
+        contains: "코어"
+        extract: "(\\d+)"
+      - key: threads
+        contains: "스레드"
+        extract: "(\\d+)"
+#      - key: process
+#        endswith: "nm"
+      - key: pcie_versions
+        contains: "PCIe"
+        extract_all: "(\\d+\\.\\d+)"
+      - key: max_memory_clock
+        contains: "MHz"
+        extract_all: "(\\d+(?:MHz)?)"
+      - key: integrated_graphics
+        contains_any: ["라데온", "HD", "인텔 그래픽스"]
+
+# Cooler
+# 모든 제품은 이름 (코드네임) (패키지 형태)
+# /로 구분 시 ":" 미포함 -> CPU 쿨러, 냉각 방식, 부속품(팬 쿨러)
+# /로 구분 시 ":" 포함 ->
+Cooler:
+  name_rules:
+    # 제품명: 괄호 전까지
+    - key: name
+      regex: "^([^\\(]+)"
+      group: 1
+    - key: color
+      regex: "\\(([^)]+)\\)"         # 첫 번째 괄호 안
+      group: 1
+
+  spec:
+    colon_keys:
+      TDP: tdp
+#      AS기간: warranty_period
+      인텔 소켓: intel_sockets
+      AMD 소켓: amd_sockets
+      라디에이터: radiator_rows
+      라디에이터 길이: radiator_width
+      라디에이터 두께: radiator_thickness
+      가로: width
+      세로: depth
+      높이: height
+#      무게: weight
+#      팬 크기: fan_size
+#      팬 개수: fan_count
+      최대 풍량: max_airflow
+      풍압(정압): static_pressure
+      최대 팬소음: max_noise
+
+    non_colon_patterns:
+      # 냉각 방식
+      - key: cooling_method
+        contains_any: ["공랭", "수랭"]
+
+      # 타워 디자인
+      - key: tower_design
+        contains_any: ["싱글타워형", "듀얼타워형", "일반형", "슬림형", "서버형"]
+
+      # 핀 커넥터 정보
+      - key: connector
+        contains_any: ["핀", "전용 케이블"]
+
+#      # 방열판 두께
+#      - key: fin_thickness
+#        regex: "(\\d+)T"
+
+#      # 팬 속도
+#      - key: fan_speed
+#        regex: "(\\d+\\s*RPM)"
+
+Motherboard:
+  name_rules:
+    - key: name
+      regex: "^(.+)$"
+
+  spec:
+    colon_keys:
+      VGA 연결: vga_interface
+      전원부: power_phases
+#      Vcore출력합계: vcore_output_total
+      PCIe버전: pcie_versions
+      PCIex16: pciex16_slots
+#      PCIex16(at x8): pciex16_atx8_slots
+#      PCIex16(at x4): pciex16_atx4_slots
+#      PCIex16(at x2): pciex16_atx2_slots
+#      PCIex16(at x1): pciex16_atx1_slots
+      PCIex8: pciex8_slots
+      PCIex4: pciex4_slots
+#      PCIex4(at x2): pciex4_atx2_slots
+      PCIex1: pciex1_slots
+      M.2: m2_slots
+      SATA3: sata3_slots
+      M.2 연결: m2_connection
+      메모리 용량: memory_max_capacity
+
+    # 비(非)콜론 패턴 기반 키
+    non_colon_patterns:
+      - key: socket
+        # “(...)” 안의 “소켓XXX” 에서 XXX만 뽑아내려면
+        regex: '\(소켓([A-Za-z0-9]+)\)'
+        groups: [1]
+
+      # 2) 칩셋 추출
+      - key: chipset
+        # “AMD B650” 또는 “인텔 Z790” 등에서 B650 / Z790만 뽑아내려면
+        regex: '^(?:AMD|인텔)\s*([A-Za-z0-9-]+)'
+        groups: [1]
+
+      # 메모리
+      - key: memory_type
+        contains: "DDR"
+      - key: memory_slots
+        contains: "개"
+#      - key: xmp
+#        contains: 'XMP'
+#      - key: expo
+#        contains: 'EXPO'
+      - key: memory_frequency
+        contains: 'MHz'
+
+      # 폼 팩터
+      - key: form_factor
+        contains_any: ["ATX","iTX"]
+        group: 1
+
+Memory:
+  name_rules:
+    - key: name
+      regex: "^(.+)$"
+
+  spec:
+    colon_keys:
+      # 콜론으로 구분된 키들
+      "램타이밍": timings
+      "램개수": ram_count
+#      "높이": height
+#      "히트싱크": heatsink
+#      "방열판 색상": heatsink_color
+#      "모듈제조사": module_manufacturer
+#      "LED 시스템": led_systems
+#      "LED색상": led_color
+
+    non_colon_patterns:
+      # 콜론이 없는 세그먼트를 패턴 매칭
+      - key: memory_type
+        contains_any:
+          - "DDR5"
+          - "DDR4"
+      - key: frequency
+        regex: "\\d+MHz"
+#      - key: xmp
+#        contains: "xmp"
+#      - key: expo
+#        contains: "expo"
+#      - key: voltage
+#        regex: "\\d+\\.\\d+V"
+#      - key: led_light
+#        contains: "LED 라이트"
+
+# 그래픽카드
+# : 구분 - 전원포트, 가로(길이), 베이스 클럭, 부스트 클럭, 스트림 프로세서, 출력 단자, 지원 정보 [], 사용 전력, 두께,
+# : 구분 X - PCle, 정격파워, 메모리타입, 팬 개수, 기술지원
+VGA:
+  name_rules:
+    # 이름
+    - key: name
+      regex: "^(.+)$"
+    # 메모리 용량
+    - key: memory_capacity
+      regex: "(\\d+GB)"
+
+  spec:
+    colon_keys:
+      전원 포트: power_ports
+      가로(길이): length
+      두께: thickness
+      베이스클럭: base_clock
+      부스트클럭: boost_clock
+      스트림 프로세서: stream_processors
+      출력단자: output_ports
+
+    non_colon_patterns:
+      - key: chipset
+        contains_any:
+          - "RTX"
+          - "GTX"
+          - "RX"
+          - "Arc"
+      # 메모리 타입 (GDDR6, GDDR7 등)
+      - key: memory_type
+        extract: "(GDDR\\d)"
+      # 인터페이스 (PCIe5.0, PCIe5.0x16 등)
+      - key: pcie_interface
+        contains: "PCIe"
+        extract: "(PCIe[\\d\\.x]+)"
+      # 권장 파워 (정격파워600W 이상 등)
+      - key: psu_requirement
+        contains: "정격파워"
+        extract: "정격파워(.+)"
+      # 사용 전력 (180W 등)
+      - key: power_consumption
+        extract: "(\\d+)W"
+
+#      # 팬 개수 (2팬, 3팬 등)
+#      - key: fan_count
+#        extract: "(\\d+)팬"
+#      # 0-dB 제로팬 기술 유무
+#      - key: zero_fan
+#        contains: "제로팬"
+#      # 보증 기간 (A/S → AS 치환 후)
+#      - key: warranty_years
+#        extract: "AS\\s*(\\d+)년"
+
+SSD:
+  name_rules:
+    - key: name
+      regex: "^([^\\(]+)"
+      group: 1
+    - key: capacity
+      regex: "\\(([^)]+)\\)"         # 첫 번째 괄호 안
+
+  spec:
+    # 콜론(‘:’) 기반 키
+    colon_keys:
+      MTBF: mtbf
+      TBW: tbw
+      두께: thickness
+
+    # 비(非)콜론 패턴
+    non_colon_patterns:
+      # 폼팩터 (M.2)
+      - key: form_factor
+        contains_any:
+          - "M.2"
+          - "6.4cm"
+      - key: sequential_read
+        # “순차읽기” 다음에 숫자(쉼표 포함)와 “MBs”를 그룹 1로 캡처
+        regex: '순차읽기\s*([0-9,]+Mbs)'
+        groups: [1]
+      - key: sequential_write
+        # “순차읽기” 다음에 숫자(쉼표 포함)와 “MBs”를 그룹 1로 캡처
+        regex: '순차쓰기\s*([0-9,]+Mbs)'
+        groups: [1]
+      - key: read_iops
+        # “순차읽기” 다음에 숫자(쉼표 포함)와 “MBs”를 그룹 1로 캡처
+        regex: '읽기IOPS\s*([0-9,]+K)'
+        groups: [1]
+      - key: write_iops
+        # “순차읽기” 다음에 숫자(쉼표 포함)와 “MBs”를 그룹 1로 캡처
+        regex: '쓰기IOPS\s*([0-9,]+K)'
+        groups: [1]
+
+      # 인터페이스 (PCIe4.0x4, PCIe5.0x2 등)
+      - key: pcie_interface
+        extract_all: "(PCIe\\d\\.\\d(?:x\\d)?)"
+
+#      # NAND 타입 (TLC, QLC)
+#      - key: nand_type
+#        extract: "(TLC|QLC)"
+#      # DRAM 탑재 여부
+#      - key: has_dram
+#        contains: "DRAM 탑재"
+#      - key: dram
+#        contains: "DDR"
+
+HDD:
+  name_rules:
+    # 1) 이름 (괄호 바로 앞까지)
+    - key: name
+      regex: "^([^\\(]+)"
+      group: 1
+
+    # 2) 용량 (괄호 안에서 “,” 앞까지)
+    - key: capacity
+      regex: "\\(\\s*([^,]+)\\s*,"   # “(“ 이후 공백 무시, 콤마 전까지 캡처
+      group: 1
+
+  spec:
+    colon_keys:
+      기록방식: recording_method
+
+    non_colon_patterns:
+      # 인터페이스 (SATA3(6Gb/s) 등)
+      - key: interface
+        contains: "SATA3"
+
+      # 회전 속도 (RPM)
+      - key: rpm
+        contains : "RPM"
+
+      # 캐시 용량 (MB)
+      - key: buffer_size
+        contains: "메모리"
+
+      # 순차 전송 속도 (MB/s)
+      - key: sequential_speed
+        contains: "Mbs"
+
+
+Case:
+  name_rules:
+    - key: name
+      regex: "^(.+)$"
+    # 색상 (블랙, 화이트 등)
+#    - key: color
+#      regex: "\\(([^)]+)\\)$"
+#      group: 1
+
+  spec:
+    colon_keys:
+      "지원보드규격": form_factor
+      "VGA 길이": max_gpu_length
+      "CPU쿨러 높이": max_cpu_cooler_height
+#      "전면 패널 타입": front_panel_type
+#      "측면 패널 타입": side_panel_type
+#      "측면 개폐 방식": side_panel_opening
+#      "쿨링팬": cooling_fan_count
+#      "LED팬": led_fan_count
+#      "후면": rear_fan_spec
+#      "내부 측면": internal_side_fan_spec
+      "너비(W)": width
+      "깊이(D)": depth
+      "높이(H)": height
+      "파워 장착 길이": power_supply_max_length
+#      "파워 위치": power_supply_location
+#      "LED 색상": led_color
+
+    non_colon_patterns:
+      # 타워 형태 (미들타워, 빅타워, 미니타워)
+      - key: case_size_category
+        contains_any:
+          - "타워"
+          - "슬림"
+
+PSU:
+  name_rules:
+    - key: name
+      regex: "^(.+)$"
+
+  spec:
+    # 콜론 기반 파싱 키
+    colon_keys:
+      케이블연결: modular_type
+      ETA인증: eta_certification
+      LAMBDA인증: lambda_certification
+#      전압변동: voltage_regulation
+#      +12V 싱글레일: single_12v_rail
+#      +12V 가용률: rail_12v_availability
+      깊이: depth
+      메인전원: main_power_connectors
+      보조전원: aux_power_connectors
+      PCIe 16핀(12+4): pcie_16pin_connectors
+      PCIe 8핀(6+2): pcie_8pin_connectors
+      SATA: sata_connectors
+      IDE 4핀: ide_4pin_connectors
+      FDD: fdd_connectors
+
+    # 비(非)콜론 패턴
+    non_colon_patterns:
+      - key: form_factor
+        contains_any:
+        - "ATX 파워"
+        - "M-ATX(SFX) 파워"
+        - "TFX 파워"
+      - key: wattage
+        contains_any:
+        - "0W"
+        - "2W"
+      - key: efficiency
+        contains: "80 PLUS"
+      - key: rail_info
+        contains_any:
+          - "싱글"
+          - "다중"
+
+

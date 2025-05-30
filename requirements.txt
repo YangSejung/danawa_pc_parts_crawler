@@ -1,0 +1,8 @@
+selenium
+PyYAML>=6.0
+pandas
+cloudscraper
+beautifulsoup4
+pinecone
+python-dotenv
+openai

@@ -1,0 +1,35 @@
+# drop_if_name_contains
+# drop_if_name_regex
+# 기본 필터 규칙: 모든 파트에서 "해외" 또는 "중고" 문자열이 이름(Name)에 포함되면 제거합니다.
+
+common: &common_rules
+  drop_if_name_contains: ["해외", "중고"]
+
+CPU:
+  drop_if_name_contains: ["해외", "중고", "제온", "EPYC"]
+
+Cooler:
+  <<: *common_rules
+
+Motherboard:
+  <<: *common_rules
+
+Memory:
+  <<: *common_rules
+
+VGA:
+  <<: *common_rules
+
+SSD:
+  <<: *common_rules
+
+HDD:
+  <<: *common_rules
+
+Case:
+  <<: *common_rules
+
+PSU:
+  <<: *common_rules
+
+
