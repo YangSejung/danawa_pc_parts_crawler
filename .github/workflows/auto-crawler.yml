@@ -22,19 +22,8 @@ jobs:
 
     - name: Install ChromeDriver matching system Chrome
       run: |
-        FULL_VER=$(google-chrome --version | grep -oP '\d+\.\d+\.\d+')
-        echo "Detected Chrome version: $FULL_VER"
-        
-        # 메이저 버전(첫 번째 숫자)만 남김
-        MAJOR_VER=${FULL_VER%%.*}
-        echo "Using major version: $MAJOR_VER"
-        
-        # 해당 메이저 버전에 맞는 ChromeDriver 버전 조회
-        DRIVER_VERSION=$(curl -s "https://chromedriver.storage.googleapis.com/${FULL_VER}")
-        echo "Matching ChromeDriver version: $DRIVER_VERSION"
-        
         # Download and unzip
-        wget -N "https://chromedriver.storage.googleapis.com/${DRIVER_VERSION}/chromedriver_linux64.zip"
+        wget -N "https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.55/linux64/chromedriver-linux64.zip"
         unzip -q chromedriver_linux64.zip -d driver/
         chmod +x chromedriver
 
