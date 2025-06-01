@@ -23,7 +23,6 @@ def create_tables():
         id            INTEGER PRIMARY KEY AUTOINCREMENT,
         user_id       INTEGER NOT NULL REFERENCES users(id),
         session_name  TEXT,
-        device_id     TEXT    NOT NULL,
         created_at    DATETIME DEFAULT CURRENT_TIMESTAMP
     );
     """)
@@ -34,8 +33,8 @@ def create_tables():
         id                INTEGER PRIMARY KEY AUTOINCREMENT,
         session_id        INTEGER NOT NULL REFERENCES sessions(id),
         role              TEXT    NOT NULL,
-        input_text        TEXT,
-        response_json     TEXT,   -- JSON stored as TEXT
+        content           TEXT,
+        mode              TEXT    NOT NULL, 
         created_at        DATETIME DEFAULT CURRENT_TIMESTAMP
     );
     """)
@@ -46,7 +45,7 @@ def create_tables():
         product_id  INTEGER PRIMARY KEY,
         category    TEXT    NOT NULL,
         name        TEXT    NOT NULL,
-        spec_json   TEXT,  -- JSON stored as TEXT
+        spec        TEXT,  -- JSON stored as TEXT
         price       INTEGER,
         in_stock    BOOLEAN  NOT NULL,
         image_url   TEXT     NOT NULL,
@@ -55,12 +54,17 @@ def create_tables():
     );
     """)
 
-    # 5) max_benchmark_scores
+    # 5) components_web
     cursor.execute("""
-    CREATE TABLE IF NOT EXISTS max_benchmark_scores (
-        name            TEXT PRIMARY KEY,
-        category        TEXT NOT NULL,
-        max_value       REAL NOT NULL,
+    CREATE TABLE IF NOT EXISTS components_web (
+        product_web_id  INTEGER PRIMARY KEY,
+        category        TEXT    NOT NULL,
+        name            TEXT    NOT NULL,
+        spec            TEXT,  -- JSON stored as TEXT
+        price           INTEGER,
+        in_stock        BOOLEAN  NOT NULL,
+        image_url       TEXT     NOT NULL,
+        product_url     TEXT     NOT NULL,
         updated_at      DATETIME DEFAULT CURRENT_TIMESTAMP
     );
     """)
@@ -85,20 +89,25 @@ def create_tables():
     CREATE TABLE IF NOT EXISTS estimate_items (
         id                   INTEGER PRIMARY KEY AUTOINCREMENT,
         estimate_id          INTEGER NOT NULL REFERENCES estimates(id),
-        product_id           INTEGER NOT NULL REFERENCES components(product_id),
+        product_id           INTEGER REFERENCES components(product_id),
+        product_web_id       INTEGER REFERENCES components_web(product_web_id),
         quantity             INTEGER NOT NULL DEFAULT 1,
-        component_score_json TEXT,  -- JSON stored as TEXT
-        selection_reason     TEXT
+        selection_reason     TEXT,
+        CHECK (
+            (product_id IS NOT NULL AND product_web_id IS NULL)
+            OR 
+            (product_id IS NULL     AND product_web_id IS NOT NULL)
+        )
     );
     """)
 
-    # 8) rag_documents
+    # 8) score_statistics
     cursor.execute("""
-    CREATE TABLE IF NOT EXISTS rag_documents (
-        id           INTEGER PRIMARY KEY AUTOINCREMENT,
-        doc_type     TEXT,
-        content_text TEXT,
-        result_json  TEXT  -- JSON stored as TEXT
+    CREATE TABLE IF NOT EXISTS score_statistics (
+        name            TEXT PRIMARY KEY,
+        category        TEXT NOT NULL,
+        value           REAL NOT NULL,
+        updated_at      DATETIME DEFAULT CURRENT_TIMESTAMP
     );
     """)
 

@@ -90,11 +90,11 @@ cur  = conn.cursor()
 
 def upsert(name: str, category: str, value: float):
     cur.execute("""
-        INSERT INTO max_benchmark_scores(name, category, max_value)
+        INSERT INTO score_statistics(name, category, value)
         VALUES (?, ?, ?)
         ON CONFLICT(name) DO UPDATE SET
             category   = excluded.category,   -- ← 함께 갱신
-            max_value  = excluded.max_value,
+            value      = excluded.value,
             updated_at = CURRENT_TIMESTAMP
     """, (name, category, value))
 

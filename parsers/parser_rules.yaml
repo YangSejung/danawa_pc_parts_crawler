@@ -156,10 +156,6 @@ Motherboard:
         contains: "DDR"
       - key: memory_slots
         contains: "개"
-#      - key: xmp
-#        contains: 'XMP'
-#      - key: expo
-#        contains: 'EXPO'
       - key: memory_frequency
         contains: 'MHz'
 
@@ -172,6 +168,10 @@ Memory:
   name_rules:
     - key: name
       regex: "^(.+)$"
+    # 메모리 용량
+    - key: total_memory_capacity
+      regex: "\\((\\d+GB)(?:\\([^)]*\\))?\\)"
+      group: 1
 
   spec:
     colon_keys:
@@ -193,14 +193,6 @@ Memory:
           - "DDR4"
       - key: frequency
         regex: "\\d+MHz"
-#      - key: xmp
-#        contains: "xmp"
-#      - key: expo
-#        contains: "expo"
-#      - key: voltage
-#        regex: "\\d+\\.\\d+V"
-#      - key: led_light
-#        contains: "LED 라이트"
 
 # 그래픽카드
 # : 구분 - 전원포트, 가로(길이), 베이스 클럭, 부스트 클럭, 스트림 프로세서, 출력 단자, 지원 정보 [], 사용 전력, 두께,
@@ -246,16 +238,6 @@ VGA:
       - key: power_consumption
         extract: "(\\d+)W"
 
-#      # 팬 개수 (2팬, 3팬 등)
-#      - key: fan_count
-#        extract: "(\\d+)팬"
-#      # 0-dB 제로팬 기술 유무
-#      - key: zero_fan
-#        contains: "제로팬"
-#      # 보증 기간 (A/S → AS 치환 후)
-#      - key: warranty_years
-#        extract: "AS\\s*(\\d+)년"
-
 SSD:
   name_rules:
     - key: name
@@ -269,7 +251,6 @@ SSD:
     colon_keys:
       MTBF: mtbf
       TBW: tbw
-      두께: thickness
 
     # 비(非)콜론 패턴
     non_colon_patterns:
@@ -294,19 +275,19 @@ SSD:
         # “순차읽기” 다음에 숫자(쉼표 포함)와 “MBs”를 그룹 1로 캡처
         regex: '쓰기IOPS\s*([0-9,]+K)'
         groups: [1]
-
       # 인터페이스 (PCIe4.0x4, PCIe5.0x2 등)
       - key: pcie_interface
         extract_all: "(PCIe\\d\\.\\d(?:x\\d)?)"
-
-#      # NAND 타입 (TLC, QLC)
-#      - key: nand_type
-#        extract: "(TLC|QLC)"
-#      # DRAM 탑재 여부
-#      - key: has_dram
-#        contains: "DRAM 탑재"
-#      - key: dram
-#        contains: "DDR"
+      # NAND 타입 (TLC, QLC)
+      - key: nand_type
+        contains_any:
+        - "TLC"
+        - "QLC"
+      # DRAM 탑재 여부
+      - key: has_dram
+        contains: "DRAM 탑재"
+      - key: dram
+        contains: "DDR"
 
 HDD:
   name_rules:
@@ -385,12 +366,9 @@ PSU:
   spec:
     # 콜론 기반 파싱 키
     colon_keys:
-      케이블연결: modular_type
       ETA인증: eta_certification
       LAMBDA인증: lambda_certification
-#      전압변동: voltage_regulation
-#      +12V 싱글레일: single_12v_rail
-#      +12V 가용률: rail_12v_availability
+      +12V 가용률: rail_12v_availability
       깊이: depth
       메인전원: main_power_connectors
       보조전원: aux_power_connectors

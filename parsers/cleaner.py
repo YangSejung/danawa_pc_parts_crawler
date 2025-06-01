@@ -1,6 +1,6 @@
 """dataset_cleaner.py
 
-Remove unwanted rows (e.g. overseas models, used/refurbished listings, server‑grade
+Remove unwanted rows (e.g. overseas models, used/refurbished listings, server-grade
 CPUs) from *raw* CSV files before they enter the parsing pipeline.
 
 Rationale for the filename
@@ -10,10 +10,10 @@ Rationale for the filename
 
 Design goals
 ────────────
-• **Config‑driven** – 키워드·정규식·컬럼명 등을 YAML/JSON으로 빼 유지보수 용이
-• **Stateless** – 어떤 CSV를 주어도 입력‑>출력만, 글로벌 변수 최소화
-• **CLI** – 파트(카테고리)·입출력 디렉터리 지정 가능
-• **Fast** – Pandas 벡터라이즈드 필터 사용
+• **Config-driven** - 키워드·정규식·컬럼명 등을 YAML/JSON으로 빼 유지보수 용이
+• **Stateless** - 어떤 CSV를 주어도 입력‑>출력만, 글로벌 변수 최소화
+• **CLI** - 파트(카테고리)·입출력 디렉터리 지정 가능
+• **Fast** - Pandas 벡터라이즈드 필터 사용
 """
 from __future__ import annotations
 
@@ -106,7 +106,7 @@ if __name__ == "__main__":
     ap.add_argument("--parts", nargs="*",
                     default=parts, help="Part categories to clean")
     ap.add_argument("--raw", type=Path, default=RAW_DIR, help="Input raw data directory")
-    ap.add_argument("--out", type=Path, default=RAW_DIR, help="Output directory (default: in‑place)")
+    ap.add_argument("--out", type=Path, default=RAW_DIR, help="Output directory (default: in-place)")
     ap.add_argument("--conf", type=Path, default=CONF_PATH, help="YAML filter rule file")
     args = ap.parse_args()
 

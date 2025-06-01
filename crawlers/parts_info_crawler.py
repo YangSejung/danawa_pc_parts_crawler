@@ -45,15 +45,15 @@ DANAWA_VE_URL = "https://shop.danawa.com/virtualestimate/?controller=estimateMai
 
 # 화면 탭 이름, 파일명 매핑
 CATEGORIES: list[tuple[str, str]] = [
-        # ("CPU", "CPU"),
-        # ("쿨러/튜닝", "Cooler"),
-        # ("메인보드", "Motherboard"),
-        # ("메모리", "Memory"),
-        # ("그래픽카드", "VGA"),
-        # ("SSD", "SSD"),
+        ("CPU", "CPU"),
+        ("쿨러/튜닝", "Cooler"),
+        ("메인보드", "Motherboard"),
+        ("메모리", "Memory"),
+        ("그래픽카드", "VGA"),
+        ("SSD", "SSD"),
         ("HDD", "HDD"),
-        # ("케이스", "Case"),
-        # ("파워", "PSU"),
+        ("케이스", "Case"),
+        ("파워", "PSU"),
 ]
 
 # 체크 박스

@@ -1,25 +1,25 @@
 from __future__ import annotations
 
-"""Nanoreview Benchmark Crawler (class‑based)
+"""Nanoreview Benchmark Crawler (class-based)
 ================================================
 
 Crawls CPU / GPU benchmark scores from **nanoreview.net** and saves them
-into per‑category CSV files.
+into per-category CSV files.
 
 Key features
 ------------
-* Cloudflare‑bypassing HTTP client (`cloudscraper`) with retry &
-  exponential back‑off.
+* Cloudflare-bypassing HTTP client (`cloudscraper`) with retry &
+  exponential back-off.
 * Class design (`NanoreviewBenchmarkCrawler`) so it can be instantiated
   and integrated like other project crawlers.
 * Category behaviour (CPU / GPU) parametrised via `CategoryConfig`
-  dataclass – easy to add more categories later.
-* Multi‑process support (`multiprocessing.Pool`) out of the box – the
+  dataclass - easy to add more categories later.
+* Multi-process support (`multiprocessing.Pool`) out of the box - the
   default worker count is half the available CPU cores.
-* Clear logging (`logging` module) and full type‑hints for readability
+* Clear logging (`logging` module) and full type-hints for readability
   and static analysis.
 
-This file is **self‑contained**: no parts omitted.
+This file is **self-contained**: no parts omitted.
 """
 
 ###############################################################################
@@ -122,7 +122,7 @@ DEFAULT_CATEGORIES: tuple[CategoryConfig, ...] = (CPU_CONFIG, GPU_CONFIG)
 ###############################################################################
 
 def _retry(max_tries: int = 3, backoff: float = 1.5):  # noqa: D401 – decorator
-    """Small exponential‑back‑off retry decorator for transient HTTP errors."""
+    """Small exponential-back-off retry decorator for transient HTTP errors."""
 
     def decorator(fn):  # type: ignore[ban-types]
         def wrapped(*args, **kwargs):  # noqa: ANN001 – dynamic
@@ -133,7 +133,7 @@ def _retry(max_tries: int = 3, backoff: float = 1.5):  # noqa: D401 – decorato
                 except RequestException as exc:
                     if attempt == max_tries:
                         raise
-                    _logger.warning("%s failed (%s) – retrying in %.1fs", fn.__name__, exc, delay)
+                    _logger.warning("%s failed (%s) - retrying in %.1fs", fn.__name__, exc, delay)
                     time.sleep(delay)
                     delay *= backoff
         return wrapped
@@ -271,7 +271,7 @@ class NanoreviewBenchmarkCrawler:
         with Pool(worker_count) as pool:
             pool.map(self._crawl_one_category, self.categories)
 
-        _logger.info("elapsed %.1f s – all categories done",time.perf_counter() - t0)
+        _logger.info("elapsed %.1f s - all categories done",time.perf_counter() - t0)
 
 ###############################################################################
 # Script entry‑point                                                          #

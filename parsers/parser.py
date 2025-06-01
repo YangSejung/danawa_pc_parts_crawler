@@ -121,13 +121,13 @@ class GenericParser:
     def _apply_rules(self, segments: List[str], rules: Dict[str, Any]) -> Dict[str, Any]:
         res: Dict[str, Any] = {}
         colon_cfg = rules.get("colon_keys", {})
-        # ① colon‑style
+        # colon‑style
         for seg in (s for s in segments if ":" in s):
             k_raw, v_raw = (t.strip() for t in seg.split(":", 1))
             if k_raw in colon_cfg:
                 ek = colon_cfg[k_raw]
                 res[ek] = [v.strip() for v in v_raw.split(",")] if "," in v_raw else v_raw.strip()
-        # ② pattern‑style
+        # pattern‑style
         for seg in (s for s in segments if ":" not in s):
             for pat in rules.get("non_colon_patterns", []):
                 if not self._matches(seg, pat):

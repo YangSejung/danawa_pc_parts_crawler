@@ -1,6 +1,5 @@
 from pathlib import Path
 import json
-import pandas as pd
 import numpy as np
 from statistics import mean, pstdev  # pstdev: 모집단 표준편차
 import sqlite3
@@ -46,29 +45,29 @@ def check_cooler_noise():
     print(f"noise 최솟값: {max_noise:.2f} dBA")
     print(f"noise 최대값: {min_noise:.2f} dBA")
 
-    # conn = sqlite3.connect('askspec.db')
-    # cursor = conn.cursor()
-    #
-    # cursor.execute("""
-    #     INSERT INTO max_benchmark_scores(name, category, max_value)
-    #     VALUES (?, ?, ?)
-    #     ON CONFLICT(name) DO UPDATE SET
-    #         category   = excluded.category,
-    #         max_value  = excluded.max_value,
-    #         updated_at = CURRENT_TIMESTAMP
-    # """, ("noise_average", "Cooler", avg_noise))
-    #
-    # cursor.execute("""
-    #     INSERT INTO max_benchmark_scores(name, category, max_value)
-    #     VALUES (?, ?, ?)
-    #     ON CONFLICT(name) DO UPDATE SET
-    #         category   = excluded.category,
-    #         max_value  = excluded.max_value,
-    #         updated_at = CURRENT_TIMESTAMP
-    # """, ("noise_standard_deviation", "Cooler", std_noise))
-    #
-    # conn.commit()
-    # conn.close()
+    conn = sqlite3.connect('../askspec.db')
+    cursor = conn.cursor()
+
+    cursor.execute("""
+        INSERT INTO score_statistics(name, category, value)
+        VALUES (?, ?, ?)
+        ON CONFLICT(name) DO UPDATE SET
+            category   = excluded.category,
+            value  = excluded.value,
+            updated_at = CURRENT_TIMESTAMP
+    """, ("noise_average", "Cooler", avg_noise))
+
+    cursor.execute("""
+        INSERT INTO score_statistics(name, category, value)
+        VALUES (?, ?, ?)
+        ON CONFLICT(name) DO UPDATE SET
+            category   = excluded.category,
+            value  = excluded.value,
+            updated_at = CURRENT_TIMESTAMP
+    """, ("noise_standard_deviation", "Cooler", std_noise))
+
+    conn.commit()
+    conn.close()
 
     return noise_values, avg_noise, std_noise
 

@@ -30,12 +30,11 @@ def seed_components():
         with open(file_path, encoding="utf-8") as f:
             products = json.load(f)
 
-
         for prod in products:
             cursor.execute("""
                 INSERT OR REPLACE INTO components
                   (product_id, category, name,
-                   spec_json, price, in_stock,
+                   spec, price, in_stock,
                    image_url, product_url)
                 VALUES (?, ?, ?, ?, ?, ?, ?, ?)
             """, (
@@ -48,7 +47,8 @@ def seed_components():
                 prod.get("image_url"),
                 prod.get("product_url")
             ))
-    json.dumps(prod.get("spec_json", {}), ensure_ascii=False),
+
+
     conn.commit()
     conn.close()
     print("Components 테이블에 시딩을 완료했습니다.")
