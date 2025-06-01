@@ -39,7 +39,7 @@ jobs:
     - name: Run Crawler
       run: |
         # python crawlers/parts_info_crawler.py
-        python benchmark_crawler.py
+        python crawlers/benchmark_crawler.py
         python parsers/cleaner.py
         python parser.py
         python mapping.py
