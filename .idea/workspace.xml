@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8711fcda-aa34-4575-866d-0cd8dfbc90bc" name="변경" comment="init">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/auto-crawler.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/auto-crawler.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlers/benchmark_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawlers/benchmark_crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlers/parts_info_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawlers/parts_info_crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/CPU_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/CPU_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Case_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Case_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Cooler_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Cooler_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Memory_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Memory_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Motherboard_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Motherboard_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/PSU_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/PSU_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/Storage_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/Storage_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/final/VGA_final.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/final/VGA_final.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/CPU_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/CPU_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/Case_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/Case_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/Cooler_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/Cooler_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/HDD_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/HDD_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/Memory_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/Memory_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/Motherboard_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/Motherboard_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/PSU_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/PSU_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/SSD_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/SSD_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/parsed/VGA_parsed.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/parsed/VGA_parsed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/check_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/check_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/migration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/score_calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/score_calculator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seed.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/seed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/vector_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db/vector_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/cleaner.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/cleaner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/parsers/parser_rules.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/parsers/parser_rules.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawlers/price_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawlers/price_crawler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,38 +46,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Python 테스트.parser 내 Doctests.executor": "Run",
-    "Python.benchmark_augment.executor": "Run",
-    "Python.benchmark_crawler.executor": "Run",
-    "Python.check_data.executor": "Run",
-    "Python.cleaner.executor": "Run",
-    "Python.data_cleaner.executor": "Run",
-    "Python.data_mapping.executor": "Run",
-    "Python.make_csv.executor": "Run",
-    "Python.mapping.executor": "Run",
-    "Python.migration.executor": "Run",
-    "Python.parser.executor": "Run",
-    "Python.parts_info_crawler.executor": "Run",
-    "Python.pinecone.executor": "Run",
-    "Python.price_crawler.executor": "Run",
-    "Python.schema.executor": "Run",
-    "Python.score_calculator.executor": "Run",
-    "Python.seed.executor": "Run",
-    "Python.stock_crawler.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.testdb.executor": "Run",
-    "Python.vector_db.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Home/Documents/Projects/danawa-pc-parts-crawler/data/raw/CPU",
-    "run.code.analysis.last.selected.profile": "aDefault",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Python 테스트.parser 내 Doctests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.benchmark_augment.executor&quot;: &quot;Run&quot;,
+    &quot;Python.benchmark_crawler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.check_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.cleaner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_cleaner.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data_mapping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.make_csv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mapping.executor&quot;: &quot;Run&quot;,
+    &quot;Python.migration.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parser.executor&quot;: &quot;Run&quot;,
+    &quot;Python.parts_info_crawler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pinecone.executor&quot;: &quot;Run&quot;,
+    &quot;Python.price_crawler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python.score_calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.seed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stock_crawler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.testdb.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vector_db.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Home/Documents/Projects/danawa-pc-parts-crawler/data/raw/CPU&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Home\Documents\Projects\danawa-pc-parts-crawler\data\raw\CPU" />
@@ -442,7 +417,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748615776913</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="init">
+      <option name="closed" value="true" />
+      <created>1748743044940</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1748743044940</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

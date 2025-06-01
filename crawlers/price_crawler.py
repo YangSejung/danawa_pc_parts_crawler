@@ -31,7 +31,8 @@ logger.addHandler(_stream)
 
 # -------------- 상수 ------------------
 BASE_DIR = Path(__file__).resolve().parent.parent
-DRIVER_PATH = BASE_DIR / "driver" / "chromedriver.exe"
+# DRIVER_PATH = BASE_DIR / "driver" / "chromedriver.exe"
+DRIVER_PATH = BASE_DIR / "driver" / "chromedriver"
 
 CATEGORY_URLS  = {
     "CPU": "https://prod.danawa.com/list/?cate=112747",
@@ -47,14 +48,14 @@ CATEGORY_URLS  = {
 
 CATEGORIES: list[tuple[str, str]] = [
     ("CPU", "CPU"),
-    ("쿨러/튜닝", "Cooler"),
-    ("메인보드", "Motherboard"),
-    ("RAM", "Memory"),
-    ("그래픽카드(VGA)", "VGA"),
-    ("SSD", "SSD"),
-    ("HDD", "HDD"),
-    ("케이스", "Case"),
-    ("파워", "PSU"),
+    # ("쿨러/튜닝", "Cooler"),
+    # ("메인보드", "Motherboard"),
+    # ("RAM", "Memory"),
+    # ("그래픽카드(VGA)", "VGA"),
+    # ("SSD", "SSD"),
+    # ("HDD", "HDD"),
+    # ("케이스", "Case"),
+    # ("파워", "PSU"),
 ]
 
 # 체크 박스
